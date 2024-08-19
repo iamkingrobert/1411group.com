@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="fixed top-8 left-0 w-full z-40 bg-transparent text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Left Section - Logo or empty div to balance */}
+          {/* Left Section - Logo */}
           <div className="flex-1">
             <img
               src="/src/assets/1411group.png"
@@ -33,24 +33,39 @@ const Navbar = () => {
               {isMegaMenuOpen && (
                 <div className="absolute -left-[120px] flex flex-row space-x-4 bg-[#171B2C] mt-[5px] w-[300px]  text-white rounded-md p-4">
                   <div className="flex flex-col space-y-3">
-                    <a href="#training" className="hover:text-gray-300 text-[14px]">
+                    <a
+                      href="#training"
+                      className="hover:text-gray-300 text-[14px]"
+                    >
                       Training
                     </a>
-                    <a href="#consulting" className="hover:text-gray-300 text-[14px]">
+                    <a
+                      href="#consulting"
+                      className="hover:text-gray-300 text-[14px]"
+                    >
                       Consulting
                     </a>
-                    <a href="#tech-solution" className="hover:text-gray-300 text-[14px]">
+                    <a
+                      href="#tech-solution"
+                      className="hover:text-gray-300 text-[14px]"
+                    >
                       Tech Solution
                     </a>
-                    <a href="#careers" className="hover:text-gray-300 text-[14px]">
+                    <a
+                      href="#careers"
+                      className="hover:text-gray-300 text-[14px]"
+                    >
                       Careers
                     </a>
-                    <a href="#connectlagos" className="hover:text-gray-300 text-[14px]">
+                    <a
+                      href="#connectlagos"
+                      className="hover:text-gray-300 text-[14px]"
+                    >
                       ConnectLagos
                     </a>
                   </div>
                   <div className="my-auto">
-                    <img src="/src/assets/1411-icon.png"/>
+                    <img src="/src/assets/1411-icon.png" />
                   </div>
                 </div>
               )}

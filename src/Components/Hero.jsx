@@ -1,11 +1,12 @@
 import React from "react";
-import Ad from "./Ad";
-import Navbar from "./NavBar";
+// import Ad from "./Ad";
+// import Navbar from "./NavBar";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Layout from "../Layout/Layout";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-[#4fc4cb]">
+    <div className="relative h-screen w-full overflow-hidden">
       <video
         className="absolute top-0 left-0 w-full h-[90%] object-cover"
         src="https://s3-eu-central-1.amazonaws.com/sae-edu-gsa-wp-2022/wp-media-folder-sae-germany/wp-content/uploads/sites/2/2022/03/Software-Engineering_H.264.mp4"
@@ -13,8 +14,7 @@ const Hero = () => {
         loop
         muted
       />
-      <Ad />
-      <Navbar />
+      <Layout/>
       <div className="relative z-10 flex flex-col space-y-[20px] items-center justify-center pl-[100px] h-[90%] w-[850px] -bottom-[60px]">
         <h1 className="text-[#4fc4cb] text-[45px] font-bold leading-[50px] tracking-[-1px]">
           We Are Bridging The Gap Between Technology And People Is The <br />
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="relative w-full bg-[#171b2c] h-[10vh] bottom-0 rounded-bl-[105px] rounded-tr-[105px]">
+      <div className="relative w-full bg-[#171b2c] h-[10vh] bottom-0 rounded-bl-[105px] rounded-br-[105px]">
         <div className="flex flex-row justify-center items-cente space-x-10">
           <div className="py-4">
           <div className="flex flex-row justify-center items-center space-x-3">
