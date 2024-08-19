@@ -11,20 +11,48 @@ import Careers from "./Pages/Careers";
 import TechSolution from "./Pages/TechSolution";
 import ConnectLagos from "./Pages/ConnectLagos";
 import Training from "./Pages/Training";
+import SoftwareEngineering from "./Courses/SoftwareEngineering";
+import DataAnalysis from "./Courses/DataAnalysis";
+import UIUX from "./Courses/UI-UX";
+import ProjectManagement from "./Courses/ProjectManagement";
+import CommunityManagement from "./Courses/CommunityManagement";
+import CyberSecurity from "./Courses/CyberSecurity";
+import ErrorPage from "./Pages/ErrorPage";
+import AboutUs from "./Pages/AboutUs";
+import ContactUs from "./Pages/ContactUs";
+import WhyChooseUs from "./Pages/WhyChooseUs";
 
 function App() {
   const route = createBrowserRouter(
     createRoutesFromElements(
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
-        <Route path='/consulting' element={<Consulting/>}/>
-        <Route path='/careers' element={<Careers/>}/>
-        <Route path='/our-solutions' element={<TechSolution/>}/>
-        <Route path='/connect-lagos' element={<ConnectLagos/>}/>
-        <Route path='/training' element={<Training/>}/>
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/why-choose-us" element={<WhyChooseUs />} />
+        <Route path="/training" element={<Training />} />
+        <Route path="*" element={<ErrorPage />} />
+        <Route path="/consulting" element={<Consulting />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/our-solutions" element={<TechSolution />} />
+        <Route path="/connect-lagos" element={<ConnectLagos />} />
+        <Route
+          path="/courses/software-engineering"
+          element={<SoftwareEngineering />}
+        />
+        <Route path="/courses/data-analysis" element={<DataAnalysis />} />
+        <Route path="/courses/ui-ux" element={<UIUX />} />
+        <Route
+          path="/courses/project-management"
+          element={<ProjectManagement />}
+        />
+        <Route
+          path="/courses/community-management"
+          element={<CommunityManagement />}
+        />
+        <Route path="/courses/cyber-security" element={<CyberSecurity />} />
         {/* <Route path='/shop' element={<Shop/>}/>
-    <Route path='/shop/:id' element={<Detail/>}/>
-    <Route path='*' element={<ErrorPage/>}/> */}
+    <Route path='/shop/:id' element={<Detail/>}/>*/}
       </Route>
     )
   );

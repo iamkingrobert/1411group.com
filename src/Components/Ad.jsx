@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 function Ad() {
   return (
@@ -11,9 +12,9 @@ function Ad() {
 
       <div className="flex flex-row justify-center items-center space-x-1">
         <span className="text-white text-[13px]">
-          <a href="#" className="cursor-pointer">
+          <Link to="/training" className="cursor-pointer">
             Get Started
-          </a>
+          </Link>
         </span>
         <FaArrowRightLong className="text-[#4fc4cb] text-[13px] cursor-pointer" />
       </div>

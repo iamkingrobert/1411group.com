@@ -3,6 +3,7 @@ import React from "react";
 // import Navbar from "./NavBar";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Layout from "../Layout/Layout";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -14,12 +15,14 @@ const Hero = () => {
         loop
         muted
       />
-      <Layout/>
+      <Layout />
       <div className="relative z-10 flex flex-col space-y-[20px] items-center justify-center pl-[100px] h-[90%] w-[850px] -bottom-[60px]">
-        <h1 className="text-[#4fc4cb] text-[45px] font-bold leading-[50px] tracking-[-1px]">
-          We Are Bridging The Gap Between Technology And People Is The <br />
-          Core Of What We Do
+        <h1 className="text-[#ffffff] text-[50px] font-extrabold leading-[60px] tracking-[-2px]">
+        People and Technology, Perfectly Aligned. The Future Is You.
         </h1>
+
+        {/* <br />The 
+          Core Of What We Do */}
 
         <p className="text-white text-[17px]">
           Empowering individuals, startups, and businesses to unlock their full
@@ -29,12 +32,18 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-row self-start items-center space-x-5">
-          <p className="bg-[#171B2C] hover:bg-[#4FC4CB] text-white p-3 rounded-md text-[18px] cursor-pointer">
-            Hire Talent
-          </p>
+          <Link to="/hire-talent">
+            <p className="bg-[#171B2C] hover:bg-[#4FC4CB] text-white p-3 rounded-md text-[18px] cursor-pointer">
+              Hire Talent
+            </p>
+          </Link>
 
           <div className="flex flex-row space-x-2 justify-center items-center cursor-pointer">
-            <p className="text-white text-[18px] hover:text-gray-300">1411 Training</p>
+            <Link to="/training">
+              <p className="text-white text-[18px] hover:text-gray-300">
+                1411 Training
+              </p>
+            </Link>
             <FaArrowRightLong className="text-[#4FC4CB] text-[18px] pt-1" />
           </div>
         </div>
@@ -42,33 +51,43 @@ const Hero = () => {
       <div className="relative w-full bg-[#171b2c] h-[10vh] bottom-0 rounded-bl-[105px] rounded-br-[105px]">
         <div className="flex flex-row justify-center items-cente space-x-10">
           <div className="py-4">
-          <div className="flex flex-row justify-center items-center space-x-3">
-            <div className="h-8 w-[2px] bg-[#4fc4cb]"></div>
-            <div className="flex flex-col">
-            <p className="text-white text-[18px] font-thin">200 +</p>
-            <p className="text-white text-[16px] font-normal">Trained Alumni and counting</p>
+            <div className="flex flex-row justify-center items-center space-x-3">
+              <div className="h-8 w-[2px] bg-[#4fc4cb]"></div>
+              <div className="flex flex-col">
+                <p className="text-white text-[18px] font-thin">200 +</p>
+                <p className="text-white text-[16px] font-normal">
+                  Trained Alumni and counting
+                </p>
+              </div>
             </div>
-          </div>
           </div>
 
           <div className="py-2">
-          <div className="flex flex-row justify-center items-center space-x-3">
-            <div className="h-8 w-[2px] bg-[#4fc4cb]"></div>
-            <div className="flex flex-col">
-            <p className="text-white text-[12px] font-thin">Start-Up Acceleration</p>
-            <p className="text-white text-[16px] font-normal">Tailored solutions for your<br></br>business success</p>
+            <div className="flex flex-row justify-center items-center space-x-3">
+              <div className="h-8 w-[2px] bg-[#4fc4cb]"></div>
+              <div className="flex flex-col">
+                <p className="text-white text-[12px] font-thin">
+                  Start-Up Acceleration
+                </p>
+                <p className="text-white text-[16px] font-normal">
+                  Tailored solutions for your<br></br>business success
+                </p>
+              </div>
             </div>
-          </div>
           </div>
 
           <div className="py-4">
-          <div className="flex flex-row justify-center items-center space-x-3">
-            <div className="h-8 w-[2px] bg-[#4fc4cb]"></div>
-            <div className="flex flex-col">
-            <p className="text-white text-[18px] font-thin">1411 Training</p>
-            <p className="text-white text-[16px] font-normal">In-demand skills for global career in tech</p>
+            <div className="flex flex-row justify-center items-center space-x-3">
+              <div className="h-8 w-[2px] bg-[#4fc4cb]"></div>
+              <div className="flex flex-col">
+                <p className="text-white text-[18px] font-thin">
+                  1411 Training
+                </p>
+                <p className="text-white text-[16px] font-normal">
+                  In-demand skills for global career in tech
+                </p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>

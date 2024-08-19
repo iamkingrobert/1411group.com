@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./AboutSection.css";
 import { GoArrowUpRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   return (
@@ -40,9 +41,9 @@ const AboutSection = () => {
           Our solutions encompass tech training, consulting, and comprehensive support in areas such as software development, data analytics, start-up acceleration, digital transformation, and more.
           </p>
           <div className="flex flex-row space-x-2 items-center">
-                  <button className="hover:text-[#171b2c] text-start text-[#4fc4cb] font-thin">
+                  <Link to="/why-choose-us" className="hover:text-[#171b2c] text-start text-[#4fc4cb] font-thin">
                     Why Choose Us
-                  </button>
+                  </Link>
                   <GoArrowUpRight className="text-[14px]" />
                 </div>
         </motion.div>
