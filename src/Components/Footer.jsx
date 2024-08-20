@@ -114,6 +114,11 @@ const Footer = () => {
                   ConLagos
                 </Link>
               </li>
+              <li>
+                <Link to="/startup-accelerator" className="text-sm hover:text-white">
+                  StartUp Accelerator
+                </Link>
+              </li>
             </ul>
           </div>
 

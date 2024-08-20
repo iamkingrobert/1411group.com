@@ -1,0 +1,33 @@
+/* Dot Animation */
+.dot-animation {
+    position: absolute;
+    top: 100%;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+    z-index: 1;
+    animation: moveDots 5s infinite linear;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #4fc4cb;
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+  
+  @keyframes moveDots {
+    0% {
+      transform: translateX(-50%);
+    }
+    50% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

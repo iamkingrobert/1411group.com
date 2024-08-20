@@ -4,6 +4,7 @@ import "./Courses.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 
+//Array of Object of courses which also includes the path for routing
 const courses = [
   {
     title: "Full Stack Software Engineering",
@@ -51,7 +52,7 @@ const courses = [
 
 const CourseSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row h-screen mx-4 lg:mx-[50px] mt-4">
+    <div className="flex flex-col lg:flex-row h-screen mx-4 lg:mx-[50px] mt-6">
       {/* Left Section - Fixed Circular Image */}
       <div className="lg:w-1/3 w-full h-full p-10 relative overflow-hidden">
         <div className="bubble-container">
@@ -61,17 +62,18 @@ const CourseSection = () => {
           <div className="bubble"></div>
           <div className="bubble"></div>
         </div>
-        <h2 className="pt-10 text-[14px] italic font-thin">
-          1411 Group<br></br>{" "}
-          <span className=" not-italic font-thin text-[44px] uppercase">
-            Training.
+        <h2 className="pt-[54px] text-[14px] italic font-thin">
+          Kick Start your Career<br></br>{" "}
+          <span className=" not-italic font-thin text-[33px] uppercase">
+            Individual & Coporate Training
           </span>
         </h2>
         <p className="text-start italic text-[18px] pt-5 text-[#171b2c] rounded-full">
-          We take great pride in our exceptional instructors. Our cutting-edge
-          curriculum is crafted and delivered by top-tier IT experts, ensuring
-          you receive the highest quality and pratical training from industry
-          leaders
+          Elevate your skills with our expert-led training programs, carefully
+          crafted by industry leaders to deliver practical knowledge and
+          exceptional results. Our top-tier instructors bring real-world
+          experience and passion to the classroom, ensuring you receive the
+          highest quality training that sets you up for success.
         </p>
       </div>
 

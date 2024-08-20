@@ -21,6 +21,7 @@ import ErrorPage from "./Pages/ErrorPage";
 import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
 import WhyChooseUs from "./Pages/WhyChooseUs";
+import StartUpAccelerator from "./Pages/StartUpAccelerator";
 
 function App() {
   const route = createBrowserRouter(
@@ -34,6 +35,7 @@ function App() {
         <Route path="*" element={<ErrorPage />} />
         <Route path="/consulting" element={<Consulting />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/startup-accelerator" element={<StartUpAccelerator />} />
         <Route path="/our-solutions" element={<TechSolution />} />
         <Route path="/connect-lagos" element={<ConnectLagos />} />
         <Route

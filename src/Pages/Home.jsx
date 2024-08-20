@@ -4,6 +4,7 @@ import Partners from "../Components/Partners";
 import AboutSection from "../Components/AboutSection";
 import CourseSection from "../Components/Courses";
 import Footer from "../Components/Footer";
+import StartupAcceleration from "../Components/StartUp";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Partners />
       <AboutSection />
       <CourseSection />
+      <StartupAcceleration/>
       <Footer />
     </>
   );
