@@ -1,0 +1,25 @@
+.country-transition {
+    display: inline-block;
+    animation: fall-in 1s ease-in-out, change-color 1s 1s ease-in-out;
+  }
+  
+  @keyframes fall-in {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes change-color {
+    0% {
+      color: #ffffff;
+    }
+    100% {
+      color: #4a90e2; /* Or any color you want */
+    }
+  }
+  

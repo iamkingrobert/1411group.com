@@ -5,6 +5,8 @@ import AboutSection from "../Components/AboutSection";
 import CourseSection from "../Components/Courses";
 import Footer from "../Components/Footer";
 import StartupAcceleration from "../Components/StartUp";
+import TheHub from "../Components/TheHub";
+import GetStarted from "../Components/GetStarted";
 
 function Home() {
   return (
@@ -14,6 +16,8 @@ function Home() {
       <AboutSection />
       <CourseSection />
       <StartupAcceleration/>
+      <TheHub/>
+      <GetStarted/>
       <Footer />
     </>
   );

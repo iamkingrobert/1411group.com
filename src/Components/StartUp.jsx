@@ -9,16 +9,6 @@ const StartupAcceleration = () => {
     <div className="w-full bg-[#171b2c] text-white flex flex-col lg:flex-row items-center justify-center py-14 relative overflow-hidden -top-[180px]">
       {/* Left Section - Dot Animation & Content */}
       <div className="lg:w-1/2 w-full px-8 relative">
-        {/* Dot Animation */}
-        {/* <div className="dot-animation">
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div> */}
-
         {/* Content */}
         <motion.div
           className="relative z-10"
@@ -31,14 +21,17 @@ const StartupAcceleration = () => {
             Start-Up Accelerator
           </h2>
           <p className="text-md lg:text-lg font-thin leading-relaxed mb-6">
-          Through our comprehensive acceleration program, we empower startups to navigate the complexities of early-stage development and set a strong foundation for long-term success. We will develop a robust sales strategy to drive revenue growth and expand your customer base
+            Through our comprehensive acceleration program, we empower startups
+            to navigate the complexities of early-stage development and set a
+            strong foundation for long-term success. We will develop a robust
+            sales strategy to drive revenue growth and expand your customer base
           </p>
-         <Link className="mt-4" to='/startup-accelerator'>
-         <button className="flex flex-row items-center bg-[#4fc4cb] hover:bg-[#ffff] text-[#171b2c] font-thin py-2 px-5 rounded-md transition-all duration-300 ease-in-out">
-            <p>Learn More</p>
-            <GoArrowUpRight className="text-[14px]" />
-          </button>
-         </Link>
+          <Link className="mt-4" to="/startup-accelerator">
+            <button className="flex flex-row items-center bg-[#4fc4cb] hover:bg-[#ffff] text-[#171b2c] font-thin py-2 px-5 rounded-md transition-all duration-300 ease-in-out">
+              <p>Learn More</p>
+              <GoArrowUpRight className="text-[14px]" />
+            </button>
+          </Link>
         </motion.div>
       </div>
 
