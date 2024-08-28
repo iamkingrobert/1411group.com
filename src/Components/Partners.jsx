@@ -12,7 +12,7 @@ function Partners() {
   return (
     <div className="flex flex-row space-x-5 justify-center mt-[50px] mx-auto">
       <div className="w-[300px]">
-        <p className="text-[24px] font-light text-pretty">
+        <p className="md:text-[24px] text-[16px] font-light text-pretty pl-3">
           Meet our trusted partners and clients, together, we drive success and
           make a lasting impact in the tech industry.
         </p>

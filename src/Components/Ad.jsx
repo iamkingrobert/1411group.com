@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Ad() {
   return (
-    <div className="fixed top-0 left-0 z-50 w-full text-center bg-[#171B2C] flex flex-row justify-center items-center space-x-[10px] py-2">
+    <div className="fixed top-0 left-0 z-50 w-full text-center bg-[#171B2C] flex md:flex-row justify-center items-center md:space-x-[10px] py-2 hidden md:flex">
       <p className="text-gray-300 text-[13px]">
         We empower individuals and organizations with cutting-edge tech
         training.
