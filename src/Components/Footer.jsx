@@ -13,23 +13,27 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between">
           {/* Column 1: About */}
           <div className="w-full lg:w-1/4 mb-8 lg:mb-0">
-            <h2 className="text-lg font-semibold mb-4 uppercase">1411 Group</h2>
-            <p className="text-sm font-light mb-4">
+            <h2 className="text-lg font-semibold mb-4 uppercase text-center md:text-left">
+              1411 Group
+            </h2>
+            <p className="text-sm font-light mb-4 text-center md:text-left">
               We are a dynamic organization passionate about empowering
               individuals and businesses to thrive in the ever-evolving
               technology landscape.
             </p>
-            <img
-              src="/src/assets/1411-training.png"
-              alt="1411 Group Logo"
-              className="w-[70px] h-auto mt-6"
-            />
+            <div className="flex justify-center">
+              <img
+                src="/src/assets/1411-training.png"
+                alt="1411 Group Logo"
+                className="w-[70px] h-auto mt-4"
+              />
+            </div>
           </div>
 
           {/* Column 2: Contact */}
           <div className="w-full lg:w-1/4 mb-8 lg:mb-0">
             <h2 className="text-lg font-semibold mb-4 uppercase">Contact Us</h2>
-            <div className="flex flex-row space-x-1 mb-3">
+            <div className="flex flex-row space-x-1 mb-3 self-center">
               <FaLocationDot className="text-white" />
               <p className="text-sm">
                 Ahmadu Bello Way, Victoria Island, <br></br>Lagos, NG{" "}
@@ -115,7 +119,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/startup-accelerator" className="text-sm hover:text-white">
+                <Link
+                  to="/startup-accelerator"
+                  className="text-sm hover:text-white"
+                >
                   StartUp Accelerator
                 </Link>
               </li>
@@ -178,11 +185,11 @@ const Footer = () => {
 
       {/* Bottom Footer Section */}
       <div className="pt-2">
-        <div className="container mx-auto px-4 lg:px-20 flex justify-between items-center text-sm">
-          <p className="font-light">
-            Copyright &copy; 1411 International Limited. All Right Reserved.
+        <div className="container mx-auto px-4 lg:px-20 flex flex-col md:flex-row md:justify-between space-y-4 items-center text-sm pb-3">
+          <p className="font-light text-center text-[16px]">
+            &copy; 1411 International Limited. All Right Reserved.
           </p>
-          <p className="font-light italic">
+          <p className="font-extralight text-[10px]">
             Tomorrow's Tech, Today's Innovation
           </p>
         </div>

@@ -10,10 +10,10 @@ function Partners() {
   }, []);
 
   return (
-    <div className="flex flex-row space-x-5 justify-center mt-[50px] mx-auto">
-      <div className="w-[300px]">
-        <p className="md:text-[24px] text-[16px] font-light text-pretty pl-3">
-          Meet our trusted partners and clients, together, we drive success and
+    <div className="flex flex-col md:flex-row md:space-x-5 justify-center mt-8 md:mt-[50px] mx-auto">
+      <div className="md:w-[300px] self-center mx-auto md:mx-0">
+        <p className="md:text-[24px] text-center text-[20px] px-5 md:font-light text-pretty md:pl-3 text-gray-400 md:text-left">
+          Our trusted partners and clients, together, we drive success and
           make a lasting impact in the tech industry.
         </p>
       </div>

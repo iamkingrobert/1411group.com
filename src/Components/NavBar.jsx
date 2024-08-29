@@ -72,41 +72,41 @@ const Navbar = () => {
                 Solutions
               </a>
               {isMegaMenuOpen && (
-                <div className="absolute -left-[120px] flex flex-row space-x-4 bg-[#171B2C] mt-[5px] w-[300px]  text-white rounded-md p-4">
-                  <div className="flex flex-col space-y-3">
+                <div className="absolute -left-[150px] flex flex-row space-x-4 bg-[#171B2C] mt-[5px] w-[330px] text-white rounded-[16px] p-4 shadow-2xl shadow-[#4fc4cb]">
+                  <div className="flex flex-col space-y-4 md:my-auto">
                     <Link
                       to="/training"
-                      className="hover:text-gray-300 text-[14px]"
+                      className="hover:text-gray-300 text-[14px] font-bold"
                     >
-                      Training
+                      1411 Training
                     </Link>
                     <Link
                       to="/consulting"
-                      className="hover:text-gray-300 text-[14px]"
+                      className="hover:text-gray-300 text-[14px] font-bold"
                     >
                       Consulting
                     </Link>
                     <Link
                       to="/our-solutions"
-                      className="hover:text-gray-300 text-[13px]"
+                      className="hover:text-gray-300 text-[13px] font-bold"
                     >
                       Tech Solutions
                     </Link>
                     <Link
                       to="/careers"
-                      className="hover:text-gray-300 text-[14px]"
+                      className="hover:text-gray-300 text-[14px] font-bold"
                     >
                       Careers
                     </Link>
                     <Link
                       to="/connect-lagos"
-                      className="hover:text-gray-300 text-[14px]"
+                      className="hover:text-gray-300 text-[14px] font-bold"
                     >
                       ConnectLagos
                     </Link>
                   </div>
                   <div className="my-auto">
-                    <img src="/src/assets/1411-icon.png" alt="1411 Icon" />
+                    <img src="/src/assets/Logomark.png" alt="1411 Icon" />
                   </div>
                 </div>
               )}

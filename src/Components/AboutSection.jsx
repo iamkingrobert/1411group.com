@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   return (
-    <div className="container mx-auto my-5 px-4 lg:px-20">
+    <div className="container mx-auto md:mt-10 px-4 lg:px-20 -mt-9">
       <div className="flex flex-col lg:flex-row items-center justify-between space-y-10 lg:space-y-0 lg:space-x-10">
         {/* Left Section - Image */}
         <motion.div

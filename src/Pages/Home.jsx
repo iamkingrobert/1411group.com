@@ -7,6 +7,7 @@ import Footer from "../Components/Footer";
 import StartupAcceleration from "../Components/StartUp";
 import TheHub from "../Components/TheHub";
 import GetStarted from "../Components/GetStarted";
+import Reviews from "../Components/Reviews";
 
 function Home() {
   return (
@@ -15,9 +16,10 @@ function Home() {
       <Partners />
       <AboutSection />
       <CourseSection />
-      <StartupAcceleration/>
-      <TheHub/>
-      <GetStarted/>
+      <StartupAcceleration />
+      <TheHub />
+      <Reviews />
+      <GetStarted />
       <Footer />
     </>
   );

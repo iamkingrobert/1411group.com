@@ -15,7 +15,7 @@ const StartupAcceleration = () => {
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 1, delay: 0.2 }}
+          transition={{ duration: 1, delay: 0.5 }}
         >
           <h2 className="text-[28px] lg:text-[36px] font-semibold mb-4 text-[#4fc4cb]">
             Start-Up Accelerator
@@ -46,7 +46,7 @@ const StartupAcceleration = () => {
         <img
           src="https://nexusla.org/wp-content/uploads/2023/12/NLAFeatured_Startup-Resources-in-Louisiana-Opportunities-for-Growth-.jpeg"
           alt="Startup Acceleration"
-          className="w-[100%] h-[100%] object-cover rounded-lg shadow-lg"
+          className="w-[100%] h-[100%] object-cover rounded-lg shadow-lg shadow-[#4fc4cb]"
         />
       </motion.div>
     </div>

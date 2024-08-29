@@ -29,9 +29,9 @@ const TheHub = () => {
   }, []);
 
   return (
-    <div className="relative h-screen bg-[#171b2c] text-white flex flex-col items-center justify-center mb-8 -top-[50px]">
-      <div className="text-center mb-[300px] md:mb-[500px] w-full md:w-[70%] mx-auto">
-        <h1 className="text-3xl md:text-5xl md:font-semibold">
+    <div className="relative h-[62vh] md:h-screen text-white flex flex-col items-center justify-center mb-8 -top-[120px]">
+      <div className="text-center mb-[300px] md:mb-[500px] w-full md:w-[70%] mx-auto mt-[100px] md:mt-0">
+        <h1 className="text-xl text-[#171b2c] font-extrabold md:text-5xl md:font-semibold">
           Fostering innovative{" "}
           <span className="relative inline-block">
             <span className="country-transition text-[#4fc4cb]">{geeks}</span>{" "}
@@ -40,8 +40,8 @@ const TheHub = () => {
           <br />
           Drive forward-thinking discussions.
         </h1>
-        <div className="w-[50%] mx-auto">
-          <p className="mt-4 text-[17px] text-gray-300">
+        <div className="md:w-[50%] mx-auto">
+          <p className="mt-4 md:text-[17px] text-[14px] text-gray-400">
             Our conferences serves as a dynamic platform where developers,
             creatives, start-ups, and venture capitalists come together to share
             knowledge, collaborate, and drive development.
@@ -49,17 +49,17 @@ const TheHub = () => {
         </div>
         <div className="flex justify-center">
           <Link className="mt-8 mb-2" to="/startup-accelerator">
-            <button className="flex flex-row items-center bg-[#4fc4cb] hover:bg-[#ffff] text-[#171b2c] font-thin py-2 px-5 rounded-md transition-all duration-300 ease-in-out">
+            <button className="flex flex-row items-center bg-[#4fc4cb] hover:bg-[#171b2c] hover:text-white text-[#171b2c] font-thin py-2 px-5 rounded-md transition-all duration-300 ease-in-out">
               <p>Learn More</p>
               <GoArrowUpRight className="text-[14px]" />
             </button>
           </Link>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 right-0">
-        <div className="relative w-[80%] h-[60vh] border-transparent border-opacity-50 mx-auto">
+      <div className="absolute md:bottom-0 -bottom-[272px] md:left-0 md:right-0">
+        <div className="relative md:w-[80%] h-[60vh] border-transparent border-opacity-50 mx-auto">
           <video
-            className="w-full h-full object-cover rounded-tl-[25px] rounded-tr-[25px]"
+            className="md:w-full md:h-full object-cover rounded-tl-[25px] rounded-tr-[25px] shadow-[#4fc4cb] shadow-2xl"
             src="/src/assets/BG.mp4"
             autoPlay
             loop

@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import Ad from "./Ad";
-// import Navbar from "./NavBar";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Layout from "../Layout/Layout";
 import { Link } from "react-router-dom";

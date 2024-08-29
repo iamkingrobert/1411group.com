@@ -52,23 +52,26 @@ const courses = [
 
 const CourseSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row h-screen mx-4 lg:mx-[50px] mt-6">
+    <div className="flex flex-col lg:flex-row h-screen mx-4 lg:mx-[50px] -mt-3 md:mt-[100px] mb-[190px] md:mb-0">
       {/* Left Section - Fixed Circular Image */}
-      <div className="lg:w-1/3 w-full h-full p-10 relative overflow-hidden">
-        <div className="bubble-container">
+      <div
+        className="lg:w-1/3 w-full h-full p-10 relative overflow-hidden bg-cover bg-center"
+        style={{ backgroundImage: "url('/src/assets/Logomark.png')" }}
+      >
+        {/* <div className="bubble-container">
           <div className="bubble"></div>
           <div className="bubble"></div>
           <div className="bubble"></div>
           <div className="bubble"></div>
           <div className="bubble"></div>
-        </div>
+        </div> */}
         <h2 className="pt-[54px] text-[14px] italic font-thin">
           Kick Start your Career<br></br>{" "}
-          <span className=" not-italic font-thin text-[33px] uppercase">
+          <span className=" not-italic font-extralight text-[33px] uppercase">
             Individual & Coporate Training
           </span>
         </h2>
-        <p className="text-start italic text-[18px] pt-5 text-[#171b2c] rounded-full">
+        <p className="text-start text-[18px] pt-5 text-gray-500 font-thin rounded-full">
           Elevate your skills with our expert-led training programs, carefully
           crafted by industry leaders to deliver practical knowledge and
           exceptional results. Our top-tier instructors bring real-world
