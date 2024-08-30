@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
@@ -19,6 +19,11 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const location = useLocation();
+
+  // If the current path is the home page
+  const isHomePage = location.pathname === "/";
 
   return (
     <nav
@@ -119,7 +124,7 @@ const Navbar = () => {
           {/* Right Section - Hire Talent Button */}
           <div className="hidden md:flex flex-1 justify-end">
             <Link to="/hire-talent">
-              <button className="bg-[#171B2C] hover:bg-[#4FC4CB] text-white font-normal py-2 px-4 rounded-md">
+              <button className={`${isHomePage ? 'bg-[#171B2C]' : "bg-[#4fc4cb]"} ${isHomePage ? 'hover:bg-[#4FC4CB] ' : "hover:bg-white text-[#171B2C] "}text-white font-normal py-2 px-4 rounded-md`}>
                 Hire Talent
               </button>
             </Link>

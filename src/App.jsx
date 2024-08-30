@@ -32,7 +32,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/why-choose-us" element={<WhyChooseUs />} />
         <Route path="/training" element={<Training />} />
-        <Route path="*" element={<ErrorPage />} />
+        <Route path="*" element={<ErrorPage />} />{" "}
         <Route path="/consulting" element={<Consulting />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/startup-accelerator" element={<StartUpAccelerator />} />
@@ -53,8 +53,6 @@ function App() {
           element={<CommunityManagement />}
         />
         <Route path="/courses/cyber-security" element={<CyberSecurity />} />
-        {/* <Route path='/shop' element={<Shop/>}/>
-    <Route path='/shop/:id' element={<Detail/>}/>*/}
       </Route>
     )
   );
