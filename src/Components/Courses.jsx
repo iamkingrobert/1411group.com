@@ -58,13 +58,6 @@ const CourseSection = () => {
         className="lg:w-1/3 w-full h-full p-10 relative overflow-hidden bg-cover bg-center"
         style={{ backgroundImage: "url('/src/assets/Logomark.png')" }}
       >
-        {/* <div className="bubble-container">
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-          <div className="bubble"></div>
-        </div> */}
         <h2 className="pt-[54px] text-[14px] italic font-thin">
           Kick Start your Career<br></br>{" "}
           <span className=" not-italic font-extralight text-[33px] uppercase">

@@ -3,11 +3,19 @@ import { FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdOutlineAlternateEmail } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Footer = () => {
+  const location = useLocation();
+  // If the current path is the homepage the the footer background should bg-[#171B2C] else bg-[#265457]
+  const isHomePage = location.pathname === "/";
+
   return (
-    <footer className="bg-[#171b2c] text-gray-200 pt-10 pb-3 rounded-tl-[55px] rounded-tr-[55px]">
+    <footer
+      className={`${
+        isHomePage ? "bg-[#171B2C]" : "bg-[#265457]"
+      } text-gray-200 pt-10 pb-3 rounded-tl-[55px] rounded-tr-[55px]`}
+    >
       {/* Main Footer Section */}
       <div className="container mx-auto px-4 lg:px-20 mb-5">
         <div className="flex flex-wrap justify-between">
