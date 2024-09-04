@@ -60,6 +60,50 @@ function AboutSuccess() {
           </div>
         </div>
       </div>
+
+      <div className="flex flex-row gap-3 justify-center items-center mt-[100px] bg-gray-500 p-6 h-[70px] rounded-full mx-auto">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/6271d311cc4b3f485bac3bfd/172b403f-6337-4991-8d68-a43f23bfb43f/logoAsset+1.png?format=750w"
+          alt="Logo 1"
+          className="w-[80px] h-[60px] object-contain"
+        />
+
+        <img
+          src="https://www.axamansard.com/images/axa-logo.png"
+          alt="Logo 1"
+          className="w-[80px] h-[40px] object-contain"
+        />
+
+        <img
+          src="https://nigerianhcaccra.org/wp-content/uploads/2021/08/NHC-Logo.png"
+          alt="Logo 1"
+          className="w-[80px] h-[45px] object-contain"
+        />
+
+        <img
+          src="https://elimesoutfit.com/assets/images/logo.png"
+          alt="Logo 1"
+          className="w-[80px] h-[40px] object-contain"
+        />
+
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/655ecf2d0b80f547bd8c613b/79fcfd9a-ce25-43be-9cc5-c5f196bdfa33/the_gallery_logo_cropped.png?format=750w"
+          alt="Logo 1"
+          className="w-[80px] h-[40px] object-contain"
+        />
+
+        <img
+          src="https://vidaecaffe.com/wp-content/uploads/2023/03/Asset-6.png"
+          alt="Logo 1"
+          className="w-[80px] h-[40px] object-contain"
+        />
+
+        <img
+          src="https://www.zaio.io/_next/static/media/logo.5f04c07c.png"
+          alt="Logo 1"
+          className="w-[80px] h-[40px] object-contain"
+        />
+      </div>
     </div>
   );
 }
