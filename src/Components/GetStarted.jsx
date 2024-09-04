@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const GetStarted = () => {
   return (
-    <div className="bg-[#4fc4cb] text-white rounded-lg p-8 flex items-center justify-between relative overflow-hidden h-[40vh] w-[80%] mx-auto mb-[80px]">
+    <div className="bg-[#4fc4cb] text-white rounded-lg p-8 flex items-center justify-between relative overflow-hidden h-[40vh] w-[80%] mx-auto mb-[80px] -top-5 md:-top-0">
       {/* Background Map */}
       <img
         src="/src/assets/map.svg"
@@ -18,7 +18,7 @@ const GetStarted = () => {
         <h2 className="text-3xl font-bold mt-2 mb-4">
           Join us and scale your business globally
         </h2>
-        <Link>
+        <Link to='/contact-us'>
           <button className="bg-[#171b2c] hover:bg-white hover:text-[#171b2c] text-white font-bold py-2 px-4 rounded">
             Get Started
           </button>

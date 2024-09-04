@@ -6,7 +6,7 @@ const MissionVision = () => {
       <h2 className="text-3xl md:text-4xl font-mono text-center text-[#4fc4cb] mb-[60px] tracking-[20px]">
         Mission & Vision
       </h2>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mx-[200px]">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:mx-[200px]">
         <div
           className="bg-white text-[#171b2c] p-6 md:p-8 lg:p-12 rounded-[25px] shadow-lg flex-1 h-[400px] bg-cover bg-center hover:shadow-[#4fc4cb]"
           style={{
