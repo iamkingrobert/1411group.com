@@ -1,24 +1,30 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Choose from "./Choose";
 
 const HeroSection = () => {
   return (
     <div className="bg-white">
-      <div className="bg-[#171b2c] text-white flex items-center justify-between p-10 h-[80vh] relative">
+      <div className="bg-[#171b2c] text-white flex items-center justify-between p-10 h-[80vh] relative mt-10">
         {/* Text Content */}
         <div className="w-1/2 space-y-6">
-          <h4 className="text-[#37d4c7] font-bold">WHY 1411 GROUP?</h4>
-          <h1 className="text-4xl font-bold">
-            We Connect Brilliance with Opportunity So Everyone Wins
+          <h4 className="text-[#4fc4cb] text-[20px] font-bold">
+            WHY 1411 GROUP?
+          </h4>
+          <h1 className="text-6xl font-bold">
+            Transforming people and businesses through technology.
           </h1>
-          <p className="text-lg">
-            Competition for top digital talent is more fierce than ever. But you
-            don’t have to limit your search by geographic location. With our
-            vast global marketplace of skilled technologists and proprietary,
-            AI-driven matching technology, we help you hire the world's best ...
-            as much as 66% faster.
+          <p className="text-lg py-1">
+            Our immersive, hands-on training combined with real-world project
+            execution, enabling trainees to build a robust portfolio. Tailored
+            for both individuals and corporate teams, our programs ensure
+            participants can translate their knowledge into industry-relevant
+            solutions. We also provide career support, helping trainees secure
+            internships and optimize their LinkedIn profiles.
           </p>
-          <button className="bg-[#37d4c7] text-black py-3 px-6 rounded-lg font-semibold hover:bg-[#2bb39e]">
-            Learn More
+
+          <button className="bg-[#4fc4cb] text-black py-3 px-6 rounded-lg font-thin hover:bg-white">
+            <Link to="/training">Get Started</Link>
           </button>
         </div>
 
@@ -32,13 +38,25 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="relative bottom-[110px] -right-[976px] w-[300px] h-[220px] rounded-lg bg-white p-5 shadow-lg shadow-[#4fc4cb]">
-        <p className="text-[#171b2c]">
-          Certified B Corporations are leaders in the global movement for an
-          inclusive, equitable, and regenerative economy. Unlike other
-          certifications for businesses, B Lab is unique in our ability to
-          measure a company’s entire social and environmental impact.{" "}
+        <p className="text-[#171b2c] text-left">
+          Whether your goal is to accelerate your career trajectory or elevate
+          your organization’s skill set, our training provides the cutting-edge
+          expertise, personalized guidance, and real-world application essential
+          for sustained growth and success.
         </p>
       </div>
+
+      <div className="text-center px-6 md:px-12 lg:px-24">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#171b2c] mb-4">
+          boost time-to-market, cut down expense with<br />
+          our effective <span className="text-[#4fc4cb]">software practices</span>
+        </h1>
+        <p className="text-[14px] md:text-[14px] text-gray-500">
+          We deliver tech solutions designed to meet the unique needs of
+          businesses across various industries
+        </p>
+      </div>
+      <Choose />
     </div>
   );
 };

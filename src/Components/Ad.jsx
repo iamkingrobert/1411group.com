@@ -19,7 +19,7 @@ function Ad() {
           isHomePage ? "text-gray-300" : "text-[#171b2c]"
         }`}
       >
-        We empower individuals and organizations with cutting-edge tech
+        We empower individuals and organizations through cutting-edge tech
         training.
       </p>
 

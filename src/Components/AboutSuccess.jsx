@@ -70,13 +70,13 @@ function AboutSuccess() {
 
         <img
           src="https://www.axamansard.com/images/axa-logo.png"
-          alt="Logo 1"
+          alt="Axa"
           className="md:w-[80px] w-[40px] h-[40px] object-contain"
         />
 
         <img
           src="https://nigerianhcaccra.org/wp-content/uploads/2021/08/NHC-Logo.png"
-          alt="Logo 1"
+          alt="Nigeria High Commission, Ghana"
           className="md:w-[80px] w-[40px] h-[45px] object-contain"
         />
 
@@ -94,13 +94,13 @@ function AboutSuccess() {
 
         <img
           src="https://vidaecaffe.com/wp-content/uploads/2023/03/Asset-6.png"
-          alt="Logo 1"
+          alt="Videa Caffe"
           className="md:w-[80px] w-[40px] h-[40px] object-contain"
         />
 
         <img
           src="https://www.zaio.io/_next/static/media/logo.5f04c07c.png"
-          alt="Logo 1"
+          alt="Zaio"
           className="md:w-[80px] w-[40px] h-[40px] object-contain"
         />
       </div>
