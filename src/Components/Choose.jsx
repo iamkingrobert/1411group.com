@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import "./AboutSection.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router-dom";
-import { SiBmcsoftware } from "react-icons/si";
 
 const Choose = () => {
   return (
@@ -49,9 +48,9 @@ const Choose = () => {
           <p className="text-[16px] text-gray-600 mb-5">
             We stay ahead of industry trends to offer the latest and most
             effective technologies, ensuring comprehensive support from strategy
-            development to implementation. With a client-centric
-            approach, we prioritize your business goals and work closely with
-            you to achieve them.
+            development to implementation. With a client-centric approach, we
+            prioritize your business goals and work closely with you to achieve
+            them.
           </p>
           <div className="flex flex-row space-x-2 items-center">
             <Link

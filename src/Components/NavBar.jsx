@@ -98,6 +98,12 @@ const Navbar = () => {
                       Tech Solutions
                     </Link>
                     <Link
+                      to="/startup-accelerator"
+                      className="hover:text-gray-300 text-[14px] font-bold"
+                    >
+                      Start-Up
+                    </Link>
+                    <Link
                       to="/careers"
                       className="hover:text-gray-300 text-[14px] font-bold"
                     >
@@ -124,7 +130,13 @@ const Navbar = () => {
           {/* Right Section - Hire Talent Button */}
           <div className="hidden md:flex flex-1 justify-end">
             <Link to="/contact-us">
-              <button className={`${isHomePage ? 'bg-[#171B2C]' : "bg-[#4fc4cb]"} ${isHomePage ? 'hover:bg-[#4FC4CB] ' : "hover:bg-[#265457] text-[#171B2C] "}text-white font-normal py-2 px-4 rounded-md`}>
+              <button
+                className={`${isHomePage ? "bg-[#171B2C]" : "bg-[#4fc4cb]"} ${
+                  isHomePage
+                    ? "hover:bg-[#4FC4CB] "
+                    : "hover:bg-[#265457] text-[#171B2C] "
+                }text-white font-normal py-2 px-4 rounded-md`}
+              >
                 Hire Talent
               </button>
             </Link>
@@ -167,6 +179,12 @@ const Navbar = () => {
                       className="hover:text-gray-300 text-[13px]"
                     >
                       Tech Solutions
+                    </Link>
+                    <Link
+                      to="/startup-accelerator"
+                      className="hover:text-gray-300 text-[14px] font-bold"
+                    >
+                      Start-Up
                     </Link>
                     <Link
                       to="/careers"

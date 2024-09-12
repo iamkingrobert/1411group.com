@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Choose from "./Choose";
+import SolutionGrid from "./SolutionGrid";
+import Footer from "./Footer";
+import ExpertsSection from "./ExpertsSection";
 
 const HeroSection = () => {
   return (
@@ -48,8 +51,10 @@ const HeroSection = () => {
 
       <div className="text-center px-6 md:px-12 lg:px-24">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#171b2c] mb-4">
-          boost time-to-market, cut down expense with<br />
-          our effective <span className="text-[#4fc4cb]">software practices</span>
+          boost time-to-market, cut down expense with
+          <br />
+          our effective{" "}
+          <span className="text-[#4fc4cb]">software practices</span>
         </h1>
         <p className="text-[14px] md:text-[14px] text-gray-500">
           We deliver tech solutions designed to meet the unique needs of
@@ -57,6 +62,9 @@ const HeroSection = () => {
         </p>
       </div>
       <Choose />
+      <SolutionGrid />
+      <ExpertsSection/>
+      <Footer/>
     </div>
   );
 };
