@@ -63,37 +63,43 @@ const ExpertsSection = () => {
                   name: "Sarah B.",
                   skills: ["React", "Node.js", "Angular"],
                   title: "Software Engineer",
-                  imageUrl: "https://decagonhq.com/wp-content/themes/Decagon/assets/img/team2%201.jpg",
+                  imageUrl:
+                    "https://decagonhq.com/wp-content/themes/Decagon/assets/img/team2%201.jpg",
                 },
                 {
                   name: "William T.",
                   skills: ["React", "Node.js", "Vue"],
                   title: "Data Analyst",
-                  imageUrl: "https://decagonhq.com/wp-content/themes/Decagon/assets/img/leadership/jody-ike.jpg",
+                  imageUrl:
+                    "https://decagonhq.com/wp-content/themes/Decagon/assets/img/leadership/jody-ike.jpg",
                 },
                 {
                   name: "Samuel A.",
                   skills: ["React", "Node.js", "Angular"],
                   title: "Backend Engineer",
-                  imageUrl: "https://decagonhq.com/wp-content/themes/Decagon/assets/img/leadership/joseph-abah.jpg",
+                  imageUrl:
+                    "https://decagonhq.com/wp-content/themes/Decagon/assets/img/leadership/joseph-abah.jpg",
                 },
                 {
                   name: "Chikelue O.",
                   skills: ["React", "Node.js", "Angular", "iOS", "Android"],
                   title: "Project Manager",
-                  imageUrl: "https://decagonhq.com/wp-content/themes/Decagon/assets/img/leadership/chika-nwobi.jpg",
+                  imageUrl:
+                    "https://decagonhq.com/wp-content/themes/Decagon/assets/img/leadership/chika-nwobi.jpg",
                 },
                 {
                   name: "Chikelue O.",
                   skills: ["React", "Node.js", "Angular", "iOS", "Android"],
                   title: "Project Manager",
-                  imageUrl: "https://decagon.institute/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffc.3fe30ebd.png&w=640&q=75",
+                  imageUrl:
+                    "https://decagon.institute/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffc.3fe30ebd.png&w=640&q=75",
                 },
                 {
                   name: "Chikelue O.",
                   skills: ["React", "Node.js", "Angular", "iOS", "Android"],
                   title: "Project Manager",
-                  imageUrl: "https://decagon.institute/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhr.f33ae7e6.png&w=640&q=75",
+                  imageUrl:
+                    "https://decagon.institute/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhr.f33ae7e6.png&w=640&q=75",
                 },
               ].map((talent, index) => (
                 <div key={index} className="flex items-center space-x-4">

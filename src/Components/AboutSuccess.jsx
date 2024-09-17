@@ -63,43 +63,43 @@ function AboutSuccess() {
 
       <div className="flex md:flex-row gap-3 justify-center items-center mt-[60px] md:mt-[100px] mb-[60px] md:mb-0 bg-gray-500 p-6 h-[70px] rounded-full md:mx-auto w-[380px] md:w-full relative right-7 md:right-0">
         <img
-          src="https://images.squarespace-cdn.com/content/v1/6271d311cc4b3f485bac3bfd/172b403f-6337-4991-8d68-a43f23bfb43f/logoAsset+1.png?format=750w"
-          alt="Logo 1"
+          src="/src/assets/clifton.png"
+          alt="Clifton Homes"
           className="md:w-[80px] w-[40px] md:h-[60px] object-contain"
         />
 
         <img
-          src="https://www.axamansard.com/images/axa-logo.png"
-          alt="Axa"
+          src="/src/assets/axa-logo.png"
+          alt="Axa Mansard"
           className="md:w-[80px] w-[40px] h-[40px] object-contain"
         />
 
         <img
-          src="https://nigerianhcaccra.org/wp-content/uploads/2021/08/NHC-Logo.png"
+          src="/src/assets/NHC-Logo.png"
           alt="Nigeria High Commission, Ghana"
           className="md:w-[80px] w-[40px] h-[45px] object-contain"
         />
 
         <img
-          src="https://elimesoutfit.com/assets/images/logo.png"
-          alt="Logo 1"
+          src="/src/assets/elime.png"
+          alt="Elimes Outfit"
           className="md:w-[80px] w-[40px] h-[40px] object-contain"
         />
 
         <img
-          src="https://images.squarespace-cdn.com/content/v1/655ecf2d0b80f547bd8c613b/79fcfd9a-ce25-43be-9cc5-c5f196bdfa33/the_gallery_logo_cropped.png?format=750w"
-          alt="Logo 1"
+          src="/src/assets/the_gallery_logo_cropped.png"
+          alt="The Gallery"
           className="md:w-[80px] w-[40px] h-[40px] object-contain"
         />
 
         <img
-          src="https://vidaecaffe.com/wp-content/uploads/2023/03/Asset-6.png"
+          src="/src/assets/Videa.png"
           alt="Videa Caffe"
           className="md:w-[80px] w-[40px] h-[40px] object-contain"
         />
 
         <img
-          src="https://www.zaio.io/_next/static/media/logo.5f04c07c.png"
+          src="/src/assets/Zaio.png"
           alt="Zaio"
           className="md:w-[80px] w-[40px] h-[40px] object-contain"
         />

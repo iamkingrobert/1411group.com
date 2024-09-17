@@ -11,9 +11,7 @@ const HeroSection = () => {
       <div className="bg-[#171b2c] text-white flex items-center justify-between p-10 h-[80vh] relative mt-10">
         {/* Text Content */}
         <div className="w-1/2 space-y-6">
-          <h4 className="text-[#4fc4cb] text-[20px] font-bold">
-            WHY 1411 GROUP?
-          </h4>
+          <h4 className="text-[#4fc4cb] text-[20px] font-bold">NEXT-GEN SWE</h4>
           <h1 className="text-6xl font-bold">
             Transforming people and businesses through technology.
           </h1>
@@ -63,8 +61,8 @@ const HeroSection = () => {
       </div>
       <Choose />
       <SolutionGrid />
-      <ExpertsSection/>
-      <Footer/>
+      <ExpertsSection />
+      <Footer />
     </div>
   );
 };

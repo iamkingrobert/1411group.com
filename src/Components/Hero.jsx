@@ -22,7 +22,7 @@ const Hero = () => {
     <div className="relative h-screen w-full overflow-hidden">
       <video
         className="absolute top-0 left-0 w-full h-[90%] object-cover"
-        src="https://s3-eu-central-1.amazonaws.com/sae-edu-gsa-wp-2022/wp-media-folder-sae-germany/wp-content/uploads/sites/2/2022/03/Software-Engineering_H.264.mp4"
+        src="https://s3-eu-central-1.amazonaws.com/sae-edu-gsa-wp-2022/wp-media-folder-sae-germany/wp-content/uploads/sites/2/2022/03/SAE-Website-hero-video.mp4"
         autoPlay
         loop
         muted
@@ -56,7 +56,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="relative w-full bg-[#171b2c] h-[12vh] bottom-0 md:rounded-bl-[105px] md:rounded-br-[105px]">
+      <div className="relative w-full bg-[#171b2c] h-[12vh] bottom-0">
         <div className="flex flex-row justify-center items-center mx-auto">
           {/* Visible only on mobile screens */}
           <div className="py-2 md:hidden relative">
