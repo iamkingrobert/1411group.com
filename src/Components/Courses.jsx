@@ -11,42 +11,42 @@ const courses = [
     content:
       "Learn HTML, CSS, JavaScript, and more to build modern websites and applications.",
     color: "#fbe8d8",
-    path: "/software-engineering",
+    path: "/courses/software-engineering",
   },
   {
     title: "Data Analysis",
     content:
       "Master data analysis with tools like Python, Excel, and SQL for business insights.",
     color: "#d1e7dd",
-    path: "/data-analysis",
+    path: "/courses/data-analysis",
   },
   {
     title: "UI/UX Design",
     content:
       "Design user-friendly interfaces and experiences with Figma, Sketch, and more.",
     color: "#cfe2f3",
-    path: "/ui-ux",
+    path: "/courses/ui-ux",
   },
   {
     title: "Project Management",
     content:
       "Get certified and manage projects effectively using Agile, Scrum, and PMP.",
     color: "#e2d9f3",
-    path: "/project-management",
+    path: "/courses/project-management",
   },
   {
     title: "Community Management",
     content:
       "Get certified and manage projects effectively using Agile, Scrum, and PMP.",
     color: "#f9e4d4",
-    path: "/community-management",
+    path: "/courses/community-management",
   },
   {
     title: "Cyber Security",
     content:
       "Get certified and manage projects effectively using Agile, Scrum, and PMP.",
     color: "#d8f3dc",
-    path: "/cyber-security",
+    path: "/courses/cyber-security",
   },
 ];
 

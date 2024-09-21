@@ -21,7 +21,7 @@ function ContactUs() {
     <div className="">
       <div className="relative w-full overflow-hidden bg-[#171b2c]">
         <div className="bg-[#171b2c] md:mt-[150px] mt-[110px] h-[55vh] mb-0">
-          <div className="md:mx-[400px]">
+          <div className="md:mx-[400px] lg:mx-[200px]">
             <h2 className="text-[#4fc4cb] md:text-[70px] text-[40px] tracking-[10px] font-extralight text-center pb-6">
               08063414676
             </h2>
@@ -48,8 +48,8 @@ function ContactUs() {
         </div>
       </div>
       <div className="">
-      <ContactForm/>
-      <Footer/>
+        <ContactForm />
+        <Footer />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Choose = () => {
   return (
-    <div className="container mx-auto md:mt-[100px] px-4 lg:px-20 -mt-9 md:mb-[70px]">
+    <div className="container mx-auto md:mt-[100px] px-4 lg:px-20 -mt-9 md:mb-[70px] mb-10">
       <div className="flex flex-col lg:flex-row items-center justify-between space-y-10 lg:space-y-0 lg:space-x-10 bg-white">
         {/* Left Section - Image */}
         <motion.div

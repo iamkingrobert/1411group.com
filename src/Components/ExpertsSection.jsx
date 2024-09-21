@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const ExpertsSection = () => {
   return (
-    <section className="px-4 md:px-8 lg:px-16 py-12">
+    <section className="px-4 md:px-8 lg:px-16 py-12 -mt-[120px]">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Left Section */}
         <div className="space-y-4">
-          <h3 className="text-sm font-semibold text-gray-600 uppercase">
+          <h3 className="md:text-sm text-lg font-semibold text-gray-600 uppercase">
             Vetted, Certified Experts
           </h3>
           <h2 className="text-3xl font-bold">
@@ -54,7 +54,7 @@ const ExpertsSection = () => {
         </div>
 
         {/* Right Section */}
-        <div className="bg-gray-100 rounded-lg p-4">
+        <div className="bg-gray-100 rounded-lg p-4 hidden sm:block">
           <div className="bg-white rounded-lg p-4 shadow">
             <h4 className="text-lg font-semibold mb-4">Top Graduate</h4>
             <div className="space-y-4">

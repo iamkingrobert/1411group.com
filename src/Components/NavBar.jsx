@@ -83,7 +83,7 @@ const Navbar = () => {
                       to="/training"
                       className="hover:text-gray-300 text-[14px] font-bold"
                     >
-                      1411 Training
+                      Training
                     </Link>
                     <Link
                       to="/consulting"
