@@ -17,7 +17,6 @@ import { MdOutlineOnlinePrediction } from "react-icons/md";
 import { FaLock } from "react-icons/fa";
 import Footer from "../Components/Footer";
 
-
 function SoftwareEngineering() {
   return (
     <div className="bg-white">
@@ -149,25 +148,26 @@ function SoftwareEngineering() {
               </div>
               <h3 className="text-4xl font-bold mb-4 text-center text-gray-800">
                 <span className="line-through text-gray-400">$333.00</span>{" "}
-                <span className="text-blue-600">$300.00</span>
-                <p className="text-base text-gray-500">
-                  Down Payment ($200)
-                </p>
+                <span className="text-[#171b2c]">$300.00</span>
+                <p className="text-base text-gray-500">Down Payment ($200)</p>
               </h3>
-              <p className="text-green-600 text-center mb-4">
-                Discount ON 
-              </p>
+              <p className="text-green-600 text-center mb-4">Discount ON</p>
               <button className="bg-[#4fc4cb] hover:bg-[#171b2c] text-white font-bold py-3 w-full rounded-lg mb-4">
                 Register Now
               </button>
               <button className="border-2 border-[#4fc4cb] text-[#171b2c] font-bold py-3 w-full rounded-lg cursor-progress">
-                Next Cohort: January 2025 
+                Next Cohort: January 2025
               </button>
             </div>
           </div>
         </section>
+
+        <div className="bg-white px-6 md:px-16 lg:px-32 pb-4">
+        <p className="text-[30px] font-semibold text-center md:text-left">Course Module</p>
+      </div>
       </div>
 
+      
       {/* STARTS FROM HERE */}
       <div className="min-h-screen flex flex-col lg:flex-row mx-auto max-w-screen-xl mb-10">
         {/* Left Side: Scrollable Course Modules */}
@@ -182,31 +182,31 @@ function SoftwareEngineering() {
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Understanding the Problem</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Devising a Plan: Strategy</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Devising a Plan: Solution</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Carrying Out the Plan</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Exercise</span>
                 </li>
@@ -221,31 +221,31 @@ function SoftwareEngineering() {
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Understanding the Problem</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Devising a Plan: Strategy</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Devising a Plan: Solution</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Carrying Out the Plan</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Exercise</span>
                 </li>
@@ -259,31 +259,31 @@ function SoftwareEngineering() {
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Understanding the Problem</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Devising a Plan: Strategy</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Devising a Plan: Solution</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Carrying Out the Plan</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                  <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Exercise</span>
                 </li>
@@ -297,31 +297,31 @@ function SoftwareEngineering() {
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Understanding the Problem</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Devising a Plan: Strategy</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Devising a Plan: Solution</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Carrying Out the Plan</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Exercise</span>
                 </li>
@@ -335,31 +335,31 @@ function SoftwareEngineering() {
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Understanding the Problem</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Devising a Plan: Strategy</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Devising a Plan: Solution</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Carrying Out the Plan</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]"/>
+                    <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
                   <span className="ml-2">Exercise</span>
                 </li>
@@ -372,7 +372,7 @@ function SoftwareEngineering() {
 
         {/* Right Side: Fixed Course Details */}
         <div className="w-full lg:w-[40%] lg:h-screen bg-white p-6 lg:sticky lg:top-0">
-          <h2 className="text-2xl font-bold mb-4">Course Details</h2>
+          <h2 className="text-2xl font-bold mb-4">Training Details</h2>
           <div className="space-y-4">
             <div className="flex items-center">
               <span className="material-icons text-[#171b2c]">
