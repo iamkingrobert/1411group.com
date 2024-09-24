@@ -14,10 +14,10 @@ const Footer = () => {
     <footer
       className={`${
         isHomePage ? "bg-[#171B2C]" : "bg-[#265457]"
-      } text-gray-200 pt-10 pb-3 rounded-tl-[55px] rounded-tr-[55px]`}
+      } text-gray-200 pt-10 pb-3 rounded-tl-[55px] rounded-tr-[55px] overflow-hidden`}
     >
       {/* Main Footer Section */}
-      <div className="container mx-auto px-4 lg:px-20 mb-5">
+      <div className="container mx-auto px-4 lg:px-20 mb-5 overflow-hidden">
         <div className="flex flex-wrap justify-between">
           {/* Column 1: About */}
           <div className="w-full lg:w-1/4 mb-8 lg:mb-0">

@@ -8,7 +8,7 @@ import { MdStars } from "react-icons/md";
 
 const SolutionGrid = () => {
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto px-4 py-16 -mb-12">
       <div className="flex flex-col space-y-5 md:space-y-0 md:flex-row justify-center items-center gap-4 md:mx-[80px] mx-[15px] relative md:-top-[60px] -top-[70px]">
         <div className="bg-green-500 rounded-2xl p-[26px] md:w-[30%]">
           <div className="flex flex-row items-center  space-x-2 mt-4">

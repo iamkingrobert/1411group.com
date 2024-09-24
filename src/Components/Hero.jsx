@@ -22,7 +22,7 @@ const Hero = () => {
     <div className="relative h-screen w-full overflow-hidden">
       <video
         className="absolute top-0 left-0 w-full h-[90%] object-cover"
-        src="https://s3-eu-central-1.amazonaws.com/sae-edu-gsa-wp-2022/wp-media-folder-sae-germany/wp-content/uploads/sites/2/2022/03/SAE-Website-hero-video.mp4"
+        src="/src/assets/v005.mp4"
         autoPlay
         loop
         muted
@@ -33,10 +33,10 @@ const Hero = () => {
           People and Technology, Perfectly Aligned. The Future Is You.
         </h1>
         <p className="text-white text-[18px] text-left pt-2">
-          Empowering individuals, startups, and businesses to unlock their full
-          potential in the dynamic tech world. We aim to create an environment
-          where technology is leveraged to solve real-world problems, enhance
-          lives, and build a sustainable future.
+          We're empowering individuals, startups, and businesses unlock their
+          full potential in the dynamic tech world. We create environment where
+          technology is leveraged to solve real-world problems, enhance lives,
+          and build a sustainable future.
         </p>
 
         <div className="flex flex-row self-start items-center space-x-5 pt-3">
@@ -84,10 +84,10 @@ const Hero = () => {
                 <div className="md:h-8 md:w-[2px] bg-[#4fc4cb]"></div>
                 <div className="flex flex-col">
                   <p className="text-white md:text-[18px] md:font-thin">
-                    200 +
+                    Dicover 1411
                   </p>
                   <p className="text-white md:text-[16px] md:font-normal">
-                    Trained Alumni and counting
+                    Innovative tech programs
                   </p>
                 </div>
               </div>
@@ -98,10 +98,10 @@ const Hero = () => {
                 <div className="md:h-8 md:w-[2px] bg-[#4fc4cb]"></div>
                 <div className="flex flex-col">
                   <p className="text-white md:text-[12px] md:font-thin">
-                    Start-Up Acceleration
+                    Tech Solutions
                   </p>
                   <p className="text-white md:text-[16px] md:font-normal">
-                    Tailored solutions for your<br></br>business success
+                  Custom software solutions<br></br>for your business
                   </p>
                 </div>
               </div>
@@ -112,10 +112,10 @@ const Hero = () => {
                 <div className="md:h-8 md:w-[2px] bg-[#4fc4cb]"></div>
                 <div className="flex flex-col">
                   <p className="text-white md:text-[18px] md:font-thin">
-                    1411 Training
+                    Work Placement
                   </p>
                   <p className="text-white md:text-[16px] md:font-normal">
-                    In-demand skills for global career in tech
+                    In-demand skills for global tech career
                   </p>
                 </div>
               </div>

@@ -163,11 +163,12 @@ function SoftwareEngineering() {
         </section>
 
         <div className="bg-white px-6 md:px-16 lg:px-32 pb-4">
-        <p className="text-[30px] font-semibold text-center md:text-left">Course Module</p>
-      </div>
+          <p className="text-[30px] font-semibold text-center md:text-left">
+            Course Module
+          </p>
+        </div>
       </div>
 
-      
       {/* STARTS FROM HERE */}
       <div className="min-h-screen flex flex-col lg:flex-row mx-auto max-w-screen-xl mb-10">
         {/* Left Side: Scrollable Course Modules */}

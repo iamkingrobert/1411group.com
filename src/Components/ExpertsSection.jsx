@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ExpertsSection = () => {
   return (
-    <section className="px-4 md:px-8 lg:px-16 py-12 -mt-[120px]">
+    <section className="px-4 md:px-8 lg:px-16 py-12 -mt-[80px]">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Left Section */}
         <div className="space-y-4">

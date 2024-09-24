@@ -4,6 +4,7 @@ import Choose from "./Choose";
 import SolutionGrid from "./SolutionGrid";
 import Footer from "./Footer";
 import ExpertsSection from "./ExpertsSection";
+import GetStarted from "./GetStarted";
 
 const HeroSection = () => {
   return (
@@ -71,6 +72,7 @@ const HeroSection = () => {
       </div>
       <Choose />
       <SolutionGrid />
+      <GetStarted/>
       <ExpertsSection />
       <Footer />
     </div>
