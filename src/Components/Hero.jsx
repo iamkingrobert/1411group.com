@@ -19,7 +19,7 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-screen w-full overflow-hidden bg-[#171b2c]">
       <video
         className="absolute top-0 left-0 w-full h-[90%] object-cover"
         src="/src/assets/v005.mp4"
@@ -40,9 +40,9 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-row self-start items-center space-x-5 pt-3">
-          <Link to="/hire-talent">
-            <p className="bg-[#171B2C] hover:bg-[#4FC4CB] text-white p-3 rounded-md text-[18px] cursor-pointer">
-              Hire Talent
+          <Link to="/our-solutions">
+            <p className="bg-[#171B2C] hover:bg-[#4FC4CB] text-[#4FC4CB] hover:text-[#171B2C] p-3 rounded-md text-[18px] cursor-pointer">
+              Our Solutions
             </p>
           </Link>
 
@@ -101,7 +101,7 @@ const Hero = () => {
                     Tech Solutions
                   </p>
                   <p className="text-white md:text-[16px] md:font-normal">
-                  Custom software solutions<br></br>for your business
+                    Custom software solutions<br></br>for your business
                   </p>
                 </div>
               </div>

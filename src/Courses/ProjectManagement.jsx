@@ -1,7 +1,7 @@
 import React from "react";
 
-function ProjectManagement() {
+function ProductManagement() {
   return <div>ProjectManagement</div>;
 }
 
-export default ProjectManagement;
+export default ProductManagement; 

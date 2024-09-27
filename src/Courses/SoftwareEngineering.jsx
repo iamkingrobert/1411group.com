@@ -30,29 +30,28 @@ function SoftwareEngineering() {
                 Software Engineering Bootcamp
               </h1>
               <p className="text-lg md:text-xl leading-relaxed text-gray-300">
-                In our rapidly advancing digital era, the need for computer
-                science professionals has reached unprecedented heights.
-                Businesses across diverse sectors increasingly rely on
-                technology to fuel innovation, making expertise in computers,
-                logical reasoning, problem-solving, and programming skills more
-                crucial than ever. Possessing such skills positions you at the
-                forefront of this demand, unlocking many rewarding career
-                opportunities.
+                This course equips you with the essential skills to become a
+                proficient developer. Covering both front-end and back-end
+                development, you'll learn to build responsive, dynamic web
+                applications using frameworks like React.js and Node.js. This
+                hands-on, project-driven program ensures you gain real-world
+                experience and prepares you for a successful tech career.
               </p>
               <p className="text-lg md:text-xl leading-relaxed text-gray-300">
-                This Skill Path is meticulously crafted to provide a
-                comprehensive introduction to computer science, catering
-                especially to those without a background in the discipline.
-                Starting with the fundamentals of problem-solving and logical
-                thinking in computing, this Skill Path will guide you through
-                coding using data structures, database design and management,
-                web application development, and professional adaptation to
-                various software development models.
+                Throughout the course, you'll engage with a range of tools and
+                technologies, including HTML, CSS, TailwindCSS, JavaScript, Git,
+                MongoDB, and more. With a strong focus on practical
+                implementation, our curriculum allows you to work on capstone
+                projects that simulate industry-level tasks. Whether you are a
+                beginner or looking to enhance your development skills, this
+                course will help you build a solid foundation, develop
+                problem-solving abilities, and emerge as a well-rounded full
+                stack developer.
               </p>
 
               <div className="flex flex-row items-center space-x-3 ">
                 <button className="bg-[#4fc4cb] text-[#171b2c] py-3 px-6 mt-4 cursor-text shadow-md font-[500]">
-                  30 Modules
+                  6 Modules
                 </button>
                 <div className="flex flex-row items-center space-x-2 mt-4">
                   <DiMongodb className="text-white text-[38px]" />
@@ -90,16 +89,17 @@ function SoftwareEngineering() {
                 <li className="flex items-start">
                   <span className="text-[#171b2c] mr-3">✔</span>
                   <p>
-                    The ability to think logically, analyze, design, and
-                    implement algorithms to solve computational problems.
+                    Gain a deep understanding of front-end technologies such as
+                    HTML, CSS, and JavaScript to build responsive and dynamic
+                    web pages.
                   </p>
                 </li>
 
                 <li className="flex items-start">
                   <span className="text-[#171b2c] mr-3">✔</span>
                   <p>
-                    A working knowledge of data modeling and design using NoSQL
-                    databases like MySQL and MongoDB, respectively.
+                    Develop proficiency in React.js for creating interactive
+                    user interfaces and manage application state effectively.
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -119,8 +119,9 @@ function SoftwareEngineering() {
                 <li className="flex items-start">
                   <span className="text-[#171b2c] mr-3">✔</span>
                   <p>
-                    Familiarity with renowned data structures like lists,
-                    arrays, stacks, queues, linked lists, trees, and graphs.
+                    Master back-end development using Node.js and Express.js,
+                    including building RESTful APIs and connecting with
+                    databases like MongoDB.
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -134,8 +135,8 @@ function SoftwareEngineering() {
                 <li className="flex items-start">
                   <span className="text-[#171b2c] mr-3">✔</span>
                   <p>
-                    The ability to think ethically and critically in the context
-                    of computing.
+                    Learn to use version control systems like Git and GitHub to
+                    collaborate on projects and manage code efficiently.
                   </p>
                 </li>
               </ul>
@@ -178,38 +179,54 @@ function SoftwareEngineering() {
             {/* Module 1 */}
             <div className="p-4 bg-white shadow-md rounded-md">
               <h2 className="text-xl font-bold mb-4">
-                2. Measuring Quantities with a Bottom-Up Approach
+                Website Development Basics (6 Weeks)
               </h2>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Understanding the Problem</span>
+                  <span className="ml-2">
+                    Introduction to website development
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Devising a Plan: Strategy</span>
+                  <span className="ml-2">Basic HTML</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Devising a Plan: Solution</span>
+                  <span className="ml-2">Advanced HTML and Semantic tags</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Carrying Out the Plan</span>
+                  <span className="ml-2">
+                    Cascading Style Sheets (CSS) and advanced selectors
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Exercise</span>
+                  <span className="ml-2">CSS FlexBox</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="material-icons text-gray-500">
+                    <FaLock className="text-[15px] text-[#171b2c]" />
+                  </span>
+                  <span className="ml-2">CSS Grid</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="material-icons text-gray-500">
+                    <FaLock className="text-[15px] text-[#171b2c]" />
+                  </span>
+                  <span className="ml-2">Responsive Web Design</span>
                 </li>
               </ul>
             </div>
@@ -217,154 +234,189 @@ function SoftwareEngineering() {
             {/* Module 2 */}
             <div className="p-4 bg-white shadow-md rounded-md">
               <h2 className="text-xl font-bold mb-4">
-                3. Solving the Farmer’s Dilemma by Embracing a Top-Down Approach
+                Modern Web Design with TailwindCSS (2 Weeks)
               </h2>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Understanding the Problem</span>
+                  <span className="ml-2">Introduction to TailwindCSS</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Devising a Plan: Strategy</span>
+                  <span className="ml-2">TailwindCSS FlexBox</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Devising a Plan: Solution</span>
+                  <span className="ml-2">TailwindCSS Grid</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Carrying Out the Plan</span>
+                  <span className="ml-2">
+                    Responsive Design (The Breakpoints)
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Exercise</span>
+                  <span className="ml-2">Capstone Project</span>
                 </li>
               </ul>
             </div>
 
             <div className="p-4 bg-white shadow-md rounded-md">
               <h2 className="text-xl font-bold mb-4">
-                3. Solving the Farmer’s Dilemma by Embracing a Top-Down Approach
+                Version Control (2 Weeks)
               </h2>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Understanding the Problem</span>
+                  <span className="ml-2">Introduction to Git</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Devising a Plan: Strategy</span>
+                  <span className="ml-2">GitHub</span>
                 </li>
+
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Devising a Plan: Solution</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]" />
+                  <span className="ml-2">
+                    Capstone Project - Multi-Page E-commerce Website (2 Weeks)
                   </span>
-                  <span className="ml-2">Carrying Out the Plan</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="material-icons text-gray-500">
-                    <FaLock className="text-[15px] text-[#171b2c]" />
-                  </span>
-                  <span className="ml-2">Exercise</span>
                 </li>
               </ul>
             </div>
 
             <div className="p-4 bg-white shadow-md rounded-md">
               <h2 className="text-xl font-bold mb-4">
-                3. Solving the Farmer’s Dilemma by Embracing a Top-Down Approach
+                Introduction to Programming (8 Weeks)
               </h2>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Understanding the Problem</span>
+                  <span className="ml-2">JavaScript programming</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Devising a Plan: Strategy</span>
+                  <span className="ml-2">
+                    Object Oriented Programming (OOPs)
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Devising a Plan: Solution</span>
+                  <span className="ml-2">Advanced JavaScript</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Carrying Out the Plan</span>
+                  <span className="ml-2">Problem Solving</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Exercise</span>
+                  <span className="ml-2">Data Structure & Algorithms</span>
                 </li>
               </ul>
             </div>
 
             <div className="p-4 bg-white shadow-md rounded-md">
               <h2 className="text-xl font-bold mb-4">
-                3. Solving the Farmer’s Dilemma by Embracing a Top-Down Approach
+                Frontend Development with React.JS (6 Weeks)
               </h2>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Understanding the Problem</span>
+                  <span className="ml-2">Understanding React.JS</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Devising a Plan: Strategy</span>
+                  <span className="ml-2">
+                    Understand React State and Event Management
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Devising a Plan: Solution</span>
+                  <span className="ml-2">Redux Toolkit</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Carrying Out the Plan</span>
+                  <span className="ml-2">React Router DOM</span>
                 </li>
                 <li className="flex items-center">
                   <span className="material-icons text-gray-500">
                     <FaLock className="text-[15px] text-[#171b2c]" />
                   </span>
-                  <span className="ml-2">Exercise</span>
+                  <span className="ml-2">Axios & JS Fetch</span>
                 </li>
               </ul>
+            </div>
+
+            <div className="p-4 bg-white shadow-md rounded-md">
+              <h2 className="text-xl font-bold mb-4">
+                Backend Development with Node.JS (4 Weeks)
+              </h2>
+              <ul className="space-y-2">
+                <li className="flex items-center">
+                  <span className="material-icons text-gray-500">
+                    <FaLock className="text-[15px] text-[#171b2c]" />
+                  </span>
+                  <span className="ml-2">
+                    Build a backend server with NodeJs & ExpressJS
+                  </span>
+                </li>
+
+                <li className="flex items-center">
+                  <span className="material-icons text-gray-500">
+                    <FaLock className="text-[15px] text-[#171b2c]" />
+                  </span>
+                  <span className="ml-2">
+                    Create and connect database with MongoDB
+                  </span>
+                </li>
+
+                <li className="flex items-center">
+                  <span className="material-icons text-gray-500">
+                    <FaLock className="text-[15px] text-[#171b2c]" />
+                  </span>
+                  <span className="ml-2">Postman</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="p-4 bg-white shadow-md rounded-md">
+              <h2 className="text-xl font-bold mb-4">
+                Capstone: Final Project - Full Stack (4 Weeks)
+              </h2>
             </div>
 
             {/* Add more modules here */}
@@ -379,7 +431,7 @@ function SoftwareEngineering() {
               <span className="material-icons text-[#171b2c]">
                 <MdAvTimer className="text-[25px]" />
               </span>
-              <span className="ml-2">110 hours</span>
+              <span className="ml-2">112 hours</span>
             </div>
 
             <div className="flex items-center">
@@ -393,7 +445,7 @@ function SoftwareEngineering() {
               <span className="material-icons text-[#171b2c]">
                 <FaRegStar className="text-[25px]" />
               </span>
-              <span className="ml-2">5 Portfolio Projects</span>
+              <span className="ml-2">3 Portfolio Projects</span>
             </div>
 
             <div className="flex items-center">
@@ -414,14 +466,14 @@ function SoftwareEngineering() {
               <span className="material-icons text-[#171b2c]">
                 <SiTask className="text-[25px]" />
               </span>
-              <span className="ml-2">20 Weekly Tasks</span>
+              <span className="ml-2">28 Weekly Tasks</span>
             </div>
 
             <div className="flex items-center">
               <span className="material-icons text-[#171b2c]">
                 <IoBriefcase className="text-[25px]" />
               </span>
-              <span className="ml-2">5 Interview Readiness</span>
+              <span className="ml-2">2 Interview Readiness</span>
             </div>
 
             <div className="flex items-center">

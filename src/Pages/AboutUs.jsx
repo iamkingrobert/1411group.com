@@ -14,7 +14,7 @@ function AboutUs() {
             a thriving ecosystem that drives <br />
             positive <span className="text-[#4fc4cb]">change</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-200">
+          <p className="text-lg md:text-xl text-gray-200 pb-4 md:pb-0">
             Empowering individuals, startups, and businesses to unlock their
             full potential in the dynamic tech world.
           </p>

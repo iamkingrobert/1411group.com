@@ -103,7 +103,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/training" className="text-sm hover:text-white">
-                  Training
+                  Training Bootcamp
                 </Link>
               </li>
               <li>
@@ -116,14 +116,15 @@ const Footer = () => {
                   Tech Solution
                 </Link>
               </li>
-              <li>
-                <Link to="/careers" className="text-sm hover:text-white">
-                  Careers
-                </Link>
-              </li>
+
               <li>
                 <Link to="/connect-lagos" className="text-sm hover:text-white">
                   ConLagos
+                </Link>
+              </li>
+              <li>
+                <Link to="/join-us" className="text-sm hover:text-white">
+                  Join Us
                 </Link>
               </li>
               <li>
@@ -164,10 +165,10 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/courses/project-management"
+                  to="/courses/product-management"
                   className="text-sm hover:text-white"
                 >
-                  Project Management
+                  Product Management
                 </Link>
               </li>
               <li>

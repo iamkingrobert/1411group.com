@@ -48,7 +48,7 @@ const TheHub = () => {
           </p>
         </div>
         <div className="flex justify-center">
-          <Link className="mt-8 mb-2" to="/startup-accelerator">
+          <Link className="mt-8 mb-2" to="/connect-lagos">
             <button className="flex flex-row items-center bg-[#4fc4cb] hover:bg-[#171b2c] hover:text-white text-[#171b2c] font-thin py-2 px-5 rounded-md transition-all duration-300 ease-in-out">
               <p>Learn More</p>
               <GoArrowUpRight className="text-[14px]" />

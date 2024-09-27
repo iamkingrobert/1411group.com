@@ -9,14 +9,14 @@ const courses = [
   {
     title: "Full Stack Software Engineering",
     content:
-      "Learn HTML, CSS, JavaScript, and more to build modern websites and applications.",
+      "Learn HTML, CSS, JavaScript, and MERN Stack tech to build modern websites and applications.",
     color: "#fbe8d8",
     path: "/courses/software-engineering",
   },
   {
     title: "Data Analysis",
     content:
-      "Master data analysis with tools like Python, Excel, and SQL for business insights.",
+      "Master data analysis with tools industry leading tools like, Power BI , Excel, and SQL for business insights.",
     color: "#d1e7dd",
     path: "/courses/data-analysis",
   },
@@ -28,11 +28,11 @@ const courses = [
     path: "/courses/ui-ux",
   },
   {
-    title: "Project Management",
+    title: "Product Management",
     content:
       "Get certified and manage projects effectively using Agile, Scrum, and PMP.",
     color: "#e2d9f3",
-    path: "/courses/project-management",
+    path: "/courses/product-management",
   },
   {
     title: "Community Management",

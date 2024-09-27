@@ -14,7 +14,7 @@ import Training from "./Pages/Training";
 import SoftwareEngineering from "./Courses/SoftwareEngineering";
 import DataAnalysis from "./Courses/DataAnalysis";
 import UIUX from "./Courses/UI-UX";
-import ProjectManagement from "./Courses/ProjectManagement";
+import ProductManagement from "./Courses/ProjectManagement";
 import CommunityManagement from "./Courses/CommunityManagement";
 import CyberSecurity from "./Courses/CyberSecurity";
 import ErrorPage from "./Pages/ErrorPage";
@@ -34,7 +34,7 @@ function App() {
         <Route path="/training" element={<Training />} />
         <Route path="*" element={<ErrorPage />} />{" "}
         <Route path="/consulting" element={<Consulting />} />
-        <Route path="/careers" element={<Careers />} />
+        <Route path="/join-us" element={<Careers />} />
         <Route path="/startup-accelerator" element={<StartUpAccelerator />} />
         <Route path="/our-solutions" element={<TechSolution />} />
         <Route path="/connect-lagos" element={<ConnectLagos />} />
@@ -45,8 +45,8 @@ function App() {
         <Route path="/courses/data-analysis" element={<DataAnalysis />} />
         <Route path="/courses/ui-ux" element={<UIUX />} />
         <Route
-          path="/courses/project-management"
-          element={<ProjectManagement />}
+          path="/courses/product-management"
+          element={<ProductManagement />}
         />
         <Route
           path="/courses/community-management"

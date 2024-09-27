@@ -45,11 +45,11 @@ const courses = [
     path: "/courses/ui-ux",
   },
   {
-    title: "Project Management",
+    title: "Product Management",
     content:
       "Get certified and manage projects effectively using Agile, Scrum, and PMP.",
     color: "#e2d9f3",
-    path: "/courses/project-management",
+    path: "/courses/product-management",
   },
   {
     title: "Community Management",
@@ -71,7 +71,7 @@ function Training() {
   return (
     <div className="bg-white">
       <div className="relative w-full overflow-hidden bg-[#171b2c]">
-        <section className="bg-[#171b2c] py-16 md:py-24 px-4">
+        <section className="bg-[#171b2c] py-16 md:py-24 md:px-4">
           <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between mt-8 overflow-hidden">
             {/* Text Section */}
             <div className="lg:w-1/2 text-center lg:text-left">
@@ -116,7 +116,7 @@ function Training() {
             </div>
 
             {/* Image Section */}
-            <div className="lg:w-1/2 mt-8 lg:mt-0">
+            <div className="lg:w-1/2 md:mt-8 lg:mt-0 mt-10">
               <img
                 src="/src/assets/faces.jpg"
                 alt="1411 Training"
@@ -150,43 +150,48 @@ function Training() {
             <div className="w-full lg:w-1/2 space-y-6">
               <div>
                 <h3 className="text-xl text-[#171b2c] font-semibold mb-2">
-                  Keep projects on time and on budget
+                  Join our career changing-bootcamp
                 </h3>
                 <p className="text-gray-600">
-                  Fill a critical skill gap or place an experienced team leader.
-                  Adaptive Hiring makes it easy for you to quickly solve for
-                  unexpected or short-term openings.
+                  Our transformative training courses have helped hundreds like
+                  yourself launch new careers in tech. Get job ready for working
+                  in code, learn Software Engineering, Data Science or Cloud
+                  Computing in 6 months or less
                 </p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="text-lg font-medium">Drive down backlog</h4>
+                  <h4 className="text-lg font-medium">Get solid foundations</h4>
                   <p className="text-gray-600">
-                    Move all your important projects to the front burner.
+                    Learn with supportive teachers and change your career in
+                    months.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="text-lg font-medium">Accelerate innovation</h4>
+                  <h4 className="text-lg font-medium">Work life balance</h4>
                   <p className="text-gray-600">
-                    Free your best developers to pursue strategic growth
-                    initiatives.
+                    Over 89% of tech employees say they have support for a
+                    better work-life balance.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="text-lg font-medium">Add in-demand skills</h4>
+                  <h4 className="text-lg font-medium">Start earning more</h4>
                   <p className="text-gray-600">
-                    The talent you need is available now. Qualified and
-                    certified.
+                    The annual wage of a tech expert in the US is $91,420
+                    compared to non-tech jobs.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="text-lg font-medium">Tackle your tech debt</h4>
+                  <h4 className="text-lg font-medium">
+                    Learn with global Community
+                  </h4>
                   <p className="text-gray-600">
-                    Modernize systems to increase efficiency and reduce costs.
+                    Community is at the heart of career in tech, developed with
+                    industry experts.
                   </p>
                 </div>
               </div>

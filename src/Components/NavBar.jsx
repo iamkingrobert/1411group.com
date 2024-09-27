@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -6,6 +6,7 @@ const Navbar = () => {
   const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const timerId = useRef(null);
 
   // Handle scroll to change navbar background
   useEffect(() => {
@@ -20,9 +21,22 @@ const Navbar = () => {
     };
   }, []);
 
-  const location = useLocation();
+  const handleMouseEnter = () => {
+    // Clear the timer if user hovers back into the menu
+    if (timerId.current) {
+      clearTimeout(timerId.current);
+    }
+    setIsMegaMenuOpen(true);
+  };
 
-  // If the current path is the home page
+  const handleMouseLeave = () => {
+    // Set a delay before closing the menu
+    timerId.current = setTimeout(() => {
+      setIsMegaMenuOpen(false);
+    }, 300); // Adjust the delay time as needed
+  };
+
+  const location = useLocation();
   const isHomePage = location.pathname === "/";
 
   return (
@@ -35,18 +49,16 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo - Always on the left */}
           <div className="flex-1">
             <Link to="/">
               <img
                 src="/src/assets/1411group.png"
-                className="h-[26px] w-[120px]"
+                className="h-[26px] w-[120px] cursor-pointer"
                 alt="1411 Group"
               />
             </Link>
           </div>
 
-          {/* Hamburger Menu Icon for Mobile */}
           <div className="flex md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -60,8 +72,10 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div
+            className="hidden md:flex items-center space-x-8"
+            style={{ minWidth: "0px" }}
+          >
             <Link to="/why-choose-us" className="hover:text-gray-300">
               Why 1411 Group
             </Link>
@@ -70,8 +84,8 @@ const Navbar = () => {
             </Link>
             <div
               className="relative"
-              onMouseEnter={() => setIsMegaMenuOpen(true)}
-              onMouseLeave={() => setIsMegaMenuOpen(false)}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
             >
               <a href="#services" className="hover:text-gray-300">
                 Solutions
@@ -81,42 +95,37 @@ const Navbar = () => {
                   <div className="flex flex-col space-y-4 md:my-auto">
                     <Link
                       to="/training"
-                      className="hover:text-gray-300 text-[14px] font-bold"
+                      className="hover:text-gray-300 text-[15px]"
                     >
-                      Training
+                      Training Bootcamp
                     </Link>
                     <Link
                       to="/consulting"
-                      className="hover:text-gray-300 text-[14px] font-bold"
+                      className="hover:text-gray-300 text-[15px]"
                     >
                       Consulting
                     </Link>
                     <Link
                       to="/our-solutions"
-                      className="hover:text-gray-300 text-[13px] font-bold"
+                      className="hover:text-gray-300 text-[15px]"
                     >
                       Tech Solutions
                     </Link>
                     <Link
                       to="/startup-accelerator"
-                      className="hover:text-gray-300 text-[14px] font-bold"
+                      className="hover:text-gray-300 text-[15px]"
                     >
                       Start-Up
                     </Link>
-                    <Link
-                      to="/careers"
-                      className="hover:text-gray-300 text-[14px] font-bold"
-                    >
-                      Careers
-                    </Link>
+
                     <Link
                       to="/connect-lagos"
-                      className="hover:text-gray-300 text-[14px] font-bold"
+                      className="hover:text-gray-300 text-[15px]"
                     >
                       ConnectLagos
                     </Link>
                   </div>
-                  <div className="my-auto">
+                  <div className="my-auto" style={{ width: "80px" }}>
                     <img src="/src/assets/Logomark.png" alt="1411 Icon" />
                   </div>
                 </div>
@@ -127,7 +136,6 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Right Section - Hire Talent Button */}
           <div className="hidden md:flex flex-1 justify-end">
             <Link to="/contact-us">
               <button
@@ -143,7 +151,6 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="bg-[#4fc4cb] md:hidden p-4 rounded-lg">
             <div className="flex flex-col space-y-4 mt-4">
@@ -166,7 +173,7 @@ const Navbar = () => {
                       to="/training"
                       className="hover:text-gray-300 text-[14px]"
                     >
-                      Training
+                      Training Bootcamp
                     </Link>
                     <Link
                       to="/consulting"
@@ -184,14 +191,9 @@ const Navbar = () => {
                       to="/startup-accelerator"
                       className="hover:text-gray-300 text-[14px] font-bold"
                     >
-                      Start-Up
+                      Start-Up Acceleration
                     </Link>
-                    <Link
-                      to="/careers"
-                      className="hover:text-gray-300 text-[14px]"
-                    >
-                      Careers
-                    </Link>
+
                     <Link
                       to="/connect-lagos"
                       className="hover:text-gray-300 text-[14px]"

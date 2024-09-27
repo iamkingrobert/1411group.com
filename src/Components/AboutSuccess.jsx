@@ -33,7 +33,7 @@ function AboutSuccess() {
         {/* Right Section */}
         <div className="grid grid-cols-2 gap-4">
           <div className="flex items-center justify-center bg-[#d8f3dc] text-[#171b2c] text-center text-2xl font-bold py-8 px-4 rounded-md">
-            9,142 <br /> Companies
+            Bespoke <br /> Solutions
           </div>
           <div
             className="flex items-center justify-center bg-blue-600 text-white text-center text-2xl font-bold py-8 px-4 bg-cover bg-center rounded-md"
@@ -46,10 +46,10 @@ function AboutSuccess() {
             }}
           ></div>
           <div className="flex items-center justify-center bg-[#4fc4cb] text-[#171b2c] text-center text-2xl font-bold py-8 px-4">
-            9,142 <br /> Companies
+            Innovative <br /> Community
           </div>
           <div className="flex items-center justify-center bg-[#fbe8d8] text-[#171b2c] text-center text-2xl font-bold py-8 px-4">
-            162 <br /> Industries
+            Business <br /> Acceleration
           </div>
           <div className="flex items-center justify-center bg-[#171b2c] ">
             <img
