@@ -65,7 +65,7 @@ const SolutionGrid = () => {
               <div className="flex flex-row space-x-2 items-center">
                 <Link
                   to="/our-solutions"
-                  className="hover:text-[#171b2c] text-start text-white font-thin"
+                  className="hover:text-[#4fc4cb] text-start text-white font-thin"
                 >
                   Tech Solutions
                 </Link>
@@ -139,7 +139,7 @@ const SolutionGrid = () => {
               <div className="flex flex-row space-x-2 items-center">
                 <Link
                   to="/startup-accelerator"
-                  className="hover:text-[#171b2c] text-start text-white font-thin"
+                  className="hover:text-[#4fc4cb] text-start text-white font-thin"
                 >
                   Start-up Acceleration
                 </Link>

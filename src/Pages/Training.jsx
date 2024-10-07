@@ -90,9 +90,6 @@ function Training() {
                 stages of their careers.
               </p>
               <div className="">
-                {/* <button className="bg-teal-400 hover:bg-teal-500 text-teal-900 font-semibold py-3 px-6 rounded-lg mt-8">
-                  Request A Demo
-                </button> */}
                 <div className="flex flex-row items-center pt-6 gap-6">
                   <SiPowerbi className="text-[#4fc4cb] text-[28px]" />
                   <DiJsBadge className="text-[#4fc4cb] text-[28px]" />

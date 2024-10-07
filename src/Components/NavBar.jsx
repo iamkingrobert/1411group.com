@@ -142,7 +142,7 @@ const Navbar = () => {
                 className={`${isHomePage ? "bg-[#171B2C]" : "bg-[#4fc4cb]"} ${
                   isHomePage
                     ? "hover:bg-[#4FC4CB] "
-                    : "hover:bg-[#265457] text-[#171B2C] "
+                    : "hover:bg-white hover:text-[#171B2C] text-[#171B2C] "
                 }text-white font-normal py-2 px-4 rounded-md`}
               >
                 Hire Talent

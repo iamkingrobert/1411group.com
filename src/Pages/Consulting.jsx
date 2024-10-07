@@ -72,7 +72,7 @@ function Consulting() {
                 the answers to ‘Who, What, When, Where, Why and How?’
               </p>
               <div className="">
-                <button className="bg-teal-400 hover:bg-teal-500 text-teal-900 font-semibold py-3 px-6 rounded-lg mt-8">
+                <button className="bg-[#4fc4cb] hover:bg-white text-teal-900 font-semibold py-3 px-6 rounded-lg mt-8">
                   Get Started
                 </button>
               </div>
@@ -228,7 +228,7 @@ function Consulting() {
                 <SiAlwaysdata className="text-[#171b2c] text-[28px]" />
               </div>
 
-              <button className="bg-teal-400 hover:bg-teal-500 text-teal-900 font-semibold py-3 px-6 rounded-lg mt-3">
+              <button className="bg-[#4fc4cb] hover:bg-[#171b2c] hover:text-white text-teal-900 font-semibold py-3 px-6 rounded-lg mt-3">
                 Get In Touch
               </button>
             </div>
