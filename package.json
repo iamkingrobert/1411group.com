@@ -1,16 +1,13 @@
 {
   "name": "1411group",
   "private": true,
-  "homepage": "https://github.com/iamkingrobert/1411group.com.git",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
