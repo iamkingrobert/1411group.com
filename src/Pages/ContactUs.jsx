@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ContactForm from "../Components/CustomerForm";
 import Footer from "../Components/Footer";
+import LogoMark from '../assets/Logomark.png';
 
 function ContactUs() {
   useEffect(() => {
@@ -38,15 +39,15 @@ function ContactUs() {
 
           <div className="flex flex-row justify-between items-center mt-10 mx-3 md:mx-5">
             <div className="h-[80px] w-[80px]">
-              <img src="/src/assets/Logomark.png" className="object-contain" />
+              <img src={LogoMark} className="object-contain" />
             </div>
 
             <div className="h-[80px] w-[80px]">
-              <img src="/src/assets/Logomark.png" className="object-contain" />
+              <img src={LogoMark} className="object-contain" />
             </div>
 
             <div className="h-[80px] w-[80px]">
-              <img src="/src/assets/Logomark.png" className="object-contain" />
+              <img src={LogoMark} className="object-contain" />
             </div>
           </div>
         </div>

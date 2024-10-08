@@ -1,47 +1,48 @@
 import { useEffect, useState } from "react";
 import ReviewCard from "./ReviewCard";
+import Logo from '../assets/1411.png';
 
 const Reviews = () => {
   const reviews = [
     {
       name: "Maxi Millz",
       title: "Software Engineer",
-      image: "/src/assets/1411.png", 
+      image: Logo, 
       review:
         "GoNomad has been absolutely helpful with my journey as an entrepreneur GoNomad has been absolutely helpful with my journey as an entrepreneur",
     },
     {
       name: "Adebusola Adu",
       title: "Data Analyst",
-      image: "/src/assets/1411.png",
+      image: Logo,
       review:
         "GoNomad has been absolutely helpful with my journey as an entrepreneur GoNomad has been absolutely helpful with my journey as an entrepreneur",
     },
     {
       name: "Ada Okeke",
       title: "Data Analyst",
-      image: "/src/assets/1411.png",
+      image: Logo,
       review:
         "GoNomad has been absolutely helpful with my journey as an entrepreneur GoNomad has been absolutely helpful with my journey as an entrepreneur",
     },
     {
       name: "Yemisi Vese",
       title: "Graphic Designer",
-      image: "/src/assets/1411.png",
+      image: Logo,
       review:
         "GoNomad has been absolutely helpful with my journey as an entrepreneur GoNomad has been absolutely helpful with my journey as an entrepreneur",
     },
     {
       name: "Etieno Akpan",
       title: "Software Engineer",
-      image: "/src/assets/1411.png",
+      image: Logo,
       review:
         "GoNomad has been absolutely helpful with my journey as an entrepreneur GoNomad has been absolutely helpful with my journey as an entrepreneur",
     },
     {
       name: "Milton Tutu",
       title: "Data Analyst",
-      image: "/src/assets/1411.png",
+      image: Logo,
       review:
         "GoNomad has been absolutely helpful with my journey as an entrepreneur GoNomad has been absolutely helpful with my journey as an entrepreneur",
     },

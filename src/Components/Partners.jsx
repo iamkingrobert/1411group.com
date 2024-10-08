@@ -1,4 +1,9 @@
 import React, { useEffect, useRef } from "react";
+import Axa from '../assets/axa-logo.png';
+import NHC from '../assets/NHC-Logo.png';
+import Vidae from '../assets/Videa.png';
+import Zaio from '../assets/Zaio.png';
+import Vfd from '../assets/VFD-Tech-Logo.webp';
 
 function Partners() {
   const logosRef = useRef(null);
@@ -35,27 +40,27 @@ function Partners() {
           style={{ animation: "slideInfinite 10s linear infinite" }}
         >
           <img
-            src="/src/assets/axa-logo.png"
+            src={Axa}
             alt="Axa Mansard"
             className="w-[100px] h-[50px] object-contain"
           />
           <img
-            src="/src/assets/NHC-Logo.png"
+            src={NHC}
             alt="Nigeria High Commission, Ghana"
             className="w-[100px] h-[55px] object-contain"
           />
           <img
-            src="/src/assets/Videa.png"
+            src={Vidae}
             alt="Vidae Caffe"
             className="w-[100px] h-[50px] object-contain"
           />
           <img
-            src="/src/assets/Zaio.png"
-            alt="Zaio"
+            src={Zaio}
+            alt="Zaio Tech"
             className="w-[100px] h-[50px] object-contain"
           />
           <img
-            src="/src/assets/VFD-Tech-Logo.webp"
+            src={Vfd}
             alt="VFD Tech"
             className="w-[100px] h-[75px] object-contain"
           />

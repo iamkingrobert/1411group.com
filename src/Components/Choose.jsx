@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import "./AboutSection.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router-dom";
+import Project from "../assets/Project-01.webp";
 
 const Choose = () => {
   return (
@@ -17,8 +18,8 @@ const Choose = () => {
           className="w-full lg:w-1/2 flex justify-center"
         >
           <img
-            src="/src/assets/Project-01.webp"
-            alt="1411 Group"
+            src={Project}
+            alt="1411 Group Project"
             className="w-full lg:w-[500px] object-cover shadow-md md:rounded-tl-[140px]"
           />
         </motion.div>

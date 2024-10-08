@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import Logo from '../assets/1411group.png';
+import LogoMark from '../assets/Logomark.png';
 const Navbar = () => {
   const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -52,7 +53,7 @@ const Navbar = () => {
           <div className="flex-1">
             <Link to="/">
               <img
-                src="/src/assets/1411group.png"
+                src={Logo}
                 className="h-[26px] w-[120px] cursor-pointer"
                 alt="1411 Group"
               />
@@ -126,7 +127,7 @@ const Navbar = () => {
                     </Link>
                   </div>
                   <div className="my-auto" style={{ width: "80px" }}>
-                    <img src="/src/assets/Logomark.png" alt="1411 Icon" />
+                    <img src={LogoMark} alt="1411 Icon" />
                   </div>
                 </div>
               )}

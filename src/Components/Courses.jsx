@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import "./Courses.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router-dom";
+import LogoMark from '../assets/Logomark.png';
 
 //Array of Object of courses which also includes the path for routing
 const courses = [
@@ -56,7 +57,7 @@ const CourseSection = () => {
       {/* Left Section - Fixed Circular Image */}
       <div
         className="lg:w-1/3 w-full h-full p-10 relative overflow-hidden bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/assets/Logomark.png')" }}
+        style={{ backgroundImage: `url(${LogoMark})` }}
       >
         <h2 className="pt-[54px] text-[14px] italic font-thin">
           Kick Start your Career<br></br>{" "}

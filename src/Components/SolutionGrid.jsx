@@ -5,6 +5,12 @@ import { Link } from "react-router-dom";
 import { GoArrowUpRight } from "react-icons/go";
 import { FaArrowCircleUp } from "react-icons/fa";
 import { MdStars } from "react-icons/md";
+import Google from "../assets/Google.png";
+import logoWhite from "../assets/1411-white.png";
+import softwareDevelopment from "../assets/SD-1411.jpg";
+import career from "../assets/career.png";
+import Startup from "../assets/startup-icon.png";
+import GoogleFounders from "../assets/Google-Founders.jpg";
 
 const SolutionGrid = () => {
   return (
@@ -22,7 +28,7 @@ const SolutionGrid = () => {
           </p>
           <div className="mt-8 flex space-x-2 items-center">
             <img
-              src="/src/assets/Google.png"
+              src={Google}
               alt="Business Consultation"
               className="rounded-full w-12 h-12"
             />
@@ -57,8 +63,8 @@ const SolutionGrid = () => {
             </p>
             <div className="mt-8 flex items-center space-x-2">
               <img
-                src="/src/assets/1411-white.png"
-                alt="1411 Group"
+                src={logoWhite}
+                alt="1411 Group Logo"
                 className="rounded-full w-12 h-12"
               />
 
@@ -76,7 +82,8 @@ const SolutionGrid = () => {
 
           <div className="hidden md:block">
             <img
-              src="/src/assets/SD-1411.jpg"
+              src={softwareDevelopment}
+              alt="Software Development"
               className=" h-[300px] w-[550px] object-cover rounded-md shadow-sm shadow-[#4fc4cb]"
             />
           </div>
@@ -96,7 +103,7 @@ const SolutionGrid = () => {
           </p>
           <div className="mt-8 flex space-x-2 items-center">
             <img
-              src="/src/assets/career.png"
+              src={career}
               alt="Business Consultation"
               className="rounded-full w-12 h-12"
             />
@@ -131,8 +138,8 @@ const SolutionGrid = () => {
             </p>
             <div className="mt-8 flex items-center space-x-2">
               <img
-                src="/src/assets/startup-icon.png"
-                alt="1411 Group"
+                src={Startup}
+                alt="1411 Group StartUp"
                 className="rounded-full w-12 h-12"
               />
 
@@ -150,7 +157,8 @@ const SolutionGrid = () => {
 
           <div className="hidden md:block">
             <img
-              src="/src/assets/Google-Founders.jpg"
+              src={GoogleFounders}
+              alt="Google Founders"
               className=" h-[300px] w-[550px] object-cover rounded-md shadow-[#4fc4cb] shadow-sm"
             />
           </div>

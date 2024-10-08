@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./TheHub.css";
 import { Link } from "react-router-dom";
 import { GoArrowUpRight } from "react-icons/go";
+import ConnectLagos from "../assets/BG.mp4";
 
 const TheHub = () => {
   const [geeks, setGeeks] = useState("Digital Normad");
@@ -60,7 +61,7 @@ const TheHub = () => {
         <div className="relative md:w-[80%] h-[60vh] border-transparent border-opacity-50 mx-auto">
           <video
             className="md:w-full md:h-full object-cover rounded-tl-[25px] rounded-tr-[25px] shadow-[#4fc4cb] shadow-2xl"
-            src="/src/assets/BG.mp4"
+            src={ConnectLagos}
             autoPlay
             loop
             muted

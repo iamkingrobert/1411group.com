@@ -4,6 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { Link, useLocation } from "react-router-dom";
+import Logo from '../assets/1411-training.png';
 
 const Footer = () => {
   const location = useLocation();
@@ -31,7 +32,7 @@ const Footer = () => {
             </p>
             <div className="flex justify-center">
               <img
-                src="/src/assets/1411-training.png"
+                src={Logo}
                 alt="1411 Group Logo"
                 className="w-[70px] h-auto mt-4"
               />

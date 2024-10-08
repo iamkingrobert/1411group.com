@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import "./AboutSection.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router-dom";
+import trainingImage from '../assets/Traning-01-scaled.jpg';
 
 const AboutSection = () => {
   return (
@@ -17,7 +18,7 @@ const AboutSection = () => {
           className="w-full lg:w-1/2 flex justify-center"
         >
           <img
-            src="/src/assets/Traning-01-scaled.jpg"
+            src={trainingImage}
             alt="1411 Group"
             className="w-full lg:w-[500px] object-cover md:rounded-br-[105px] md:rounded-tl-[140px] shadow-md"
           />

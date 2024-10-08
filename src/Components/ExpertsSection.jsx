@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Alumni from "../assets/1411-icon.png";
 
 const ExpertsSection = () => {
   return (
@@ -63,43 +64,37 @@ const ExpertsSection = () => {
                   name: "Sarah B.",
                   skills: ["React", "Node.js", "Angular"],
                   title: "Software Engineer",
-                  imageUrl:
-                    "https://decagonhq.com/wp-content/themes/Decagon/assets/img/team2%201.jpg",
+                  imageUrl: Alumni,
                 },
                 {
                   name: "William T.",
                   skills: ["React", "Node.js", "Vue"],
                   title: "Data Analyst",
-                  imageUrl:
-                    "https://decagonhq.com/wp-content/themes/Decagon/assets/img/leadership/jody-ike.jpg",
+                  imageUrl: Alumni,
                 },
                 {
                   name: "Samuel A.",
                   skills: ["React", "Node.js", "Angular"],
                   title: "Backend Engineer",
-                  imageUrl:
-                    "https://decagonhq.com/wp-content/themes/Decagon/assets/img/leadership/joseph-abah.jpg",
+                  imageUrl: Alumni,
                 },
                 {
                   name: "Chikelue O.",
                   skills: ["React", "Node.js", "Angular", "iOS", "Android"],
                   title: "Project Manager",
-                  imageUrl:
-                    "https://decagonhq.com/wp-content/themes/Decagon/assets/img/leadership/chika-nwobi.jpg",
+                  imageUrl: Alumni,
                 },
                 {
                   name: "Chikelue O.",
                   skills: ["React", "Node.js", "Angular", "iOS", "Android"],
                   title: "Project Manager",
-                  imageUrl:
-                    "https://decagon.institute/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffc.3fe30ebd.png&w=640&q=75",
+                  imageUrl: Alumni,
                 },
                 {
                   name: "Chikelue O.",
                   skills: ["React", "Node.js", "Angular", "iOS", "Android"],
                   title: "Project Manager",
-                  imageUrl:
-                    "https://decagon.institute/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhr.f33ae7e6.png&w=640&q=75",
+                  imageUrl: Alumni,
                 },
               ].map((talent, index) => (
                 <div key={index} className="flex items-center space-x-4">

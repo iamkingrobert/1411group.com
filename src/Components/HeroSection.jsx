@@ -5,6 +5,7 @@ import SolutionGrid from "./SolutionGrid";
 import Footer from "./Footer";
 import ExpertsSection from "./ExpertsSection";
 import GetStarted from "./GetStarted";
+import logoMark from "../assets/Logomark.png";
 
 const HeroSection = () => {
   return (
@@ -29,7 +30,7 @@ const HeroSection = () => {
 
           <div className="relative md:hidden -top-[200px] left-[270px]">
           <img
-            src="/src/assets/Logomark.png"
+            src={logoMark}
             alt="People working"
             className="w-[25%] h-auto object-cover rounded-lg"
           />
@@ -43,7 +44,7 @@ const HeroSection = () => {
         {/* Image on the right */}
         <div className="w-1/2 relative hidden sm:block">
           <img
-            src="/src/assets/Logomark.png"
+            src={logoMark}
             alt="People working"
             className="w-full h-auto object-cover rounded-lg"
           />

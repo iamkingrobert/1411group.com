@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Work from "../assets/work.jpg";
+import People from "../assets/People-and-Tech.jpg";
+import FashionPreneur from "../assets/fashionprenuer.jpg";
 
 function AboutSuccess() {
   return (
@@ -37,12 +40,12 @@ function AboutSuccess() {
           </div>
           <div
             className="flex items-center justify-center bg-blue-600 text-white text-center text-2xl font-bold py-8 px-4 bg-cover bg-center rounded-md"
-            style={{ backgroundImage: "url('/src/assets/work.jpg')" }}
+            style={{ backgroundImage: `url(${Work})` }}
           ></div>
           <div
             className="flex items-center justify-center bg-blue-600 text-white text-center text-2xl font-bold py-8 px-4 bg-cover bg-center rounded-md"
             style={{
-              backgroundImage: "url('/src/assets/People-and-Tech.jpg')",
+              backgroundImage: `url(${People})`,
             }}
           ></div>
           <div className="flex items-center justify-center bg-[#4fc4cb] text-[#171b2c] text-center text-2xl font-bold py-8 px-4">
@@ -53,7 +56,7 @@ function AboutSuccess() {
           </div>
           <div className="flex items-center justify-center bg-[#171b2c] ">
             <img
-              src="/src/assets/fashionprenuer.jpg"
+              src={FashionPreneur}
               alt="Placeholder"
               className="h-40 w-full object-cover rounded-md"
             />

@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { GoArrowUpRight } from "react-icons/go";
 import "./StartUp.css";
 import { Link } from "react-router-dom";
+import StartUp from '../assets/StartUp.jpeg';
 
 const StartupAcceleration = () => {
   return (
@@ -44,7 +45,7 @@ const StartupAcceleration = () => {
         transition={{ duration: 1, delay: 0.4 }}
       >
         <img
-          src="https://nexusla.org/wp-content/uploads/2023/12/NLAFeatured_Startup-Resources-in-Louisiana-Opportunities-for-Growth-.jpeg"
+          src={StartUp}
           alt="Startup Acceleration"
           className="w-[100%] h-[100%] object-cover rounded-lg shadow-lg shadow-[#4fc4cb]"
         />

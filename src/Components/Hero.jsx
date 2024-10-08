@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Layout from "../Layout/Layout";
 import { Link } from "react-router-dom";
+import videoHero from "../assets/v005.mp4";
+import bgImage from '../assets/bg.jpg';
 
 const Hero = () => {
   const [geeks, setGeeks] = useState("World");
@@ -22,7 +24,7 @@ const Hero = () => {
     <div className="relative h-screen w-full overflow-hidden bg-[#171b2c]">
       <video
         className="absolute top-0 left-0 w-full h-[90%] object-cover"
-        src="/src/assets/v005.mp4"
+        src={videoHero}
         autoPlay
         loop
         muted
@@ -63,7 +65,7 @@ const Hero = () => {
             <div
               className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-50"
               style={{
-                backgroundImage: "url('/src/assets/bg.jpg')",
+                backgroundImage: `url(${bgImage})`,
               }}
             ></div>
             <div className="relative z-10">

@@ -16,7 +16,7 @@ const ReviewCard = ({ review, index }) => {
         },
       }}
     >
-      {/* Your review content remains the same */}
+      {/* Trainees review content */}
       <p className="text-[#171b2c] text-2xl">“</p>
       <p className="text-gray-800 mt-4 text-left">{review.review}</p>
       <img src={review.image} className="w-12 h-12 rounded-full mt-4" />
