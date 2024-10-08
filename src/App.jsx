@@ -4,6 +4,7 @@ import {
   RouterProvider,
   createRoutesFromElements,
 } from "react-router-dom";
+import { useEffect } from "react";
 import Home from "./Pages/Home";
 import Layout from "./Layout/Layout";
 import Consulting from "./Pages/Consulting";
@@ -24,6 +25,10 @@ import WhyChooseUs from "./Pages/WhyChooseUs";
 import StartUpAccelerator from "./Pages/StartUpAccelerator";
 
 function App() {
+  useEffect(() => {
+    document.title = "1411 Group | Tomorrow's Tech, Today's Innovation";
+  }, []);
+
   const route = createBrowserRouter(
     createRoutesFromElements(
       <Route element={<Layout />}>

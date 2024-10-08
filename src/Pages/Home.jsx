@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "../Components/Hero";
 import Partners from "../Components/Partners";
 import AboutSection from "../Components/AboutSection";
@@ -10,6 +10,9 @@ import GetStarted from "../Components/GetStarted";
 import Reviews from "../Components/Reviews";
 
 function Home() {
+  useEffect(() => {
+    document.title = "1411 Group | Tomorrow's Tech, Today's Innovation";
+  }, []);
   return (
     <>
       <Hero />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../Components/Footer";
 import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router-dom";
@@ -68,6 +68,9 @@ const courses = [
 ];
 
 function Training() {
+  useEffect(() => {
+    document.title = "Training | Tomorrow's Tech, Today's Innovation";
+  }, []);
   return (
     <div className="bg-white">
       <div className="relative w-full overflow-hidden bg-[#171b2c]">

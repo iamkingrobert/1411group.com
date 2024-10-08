@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Software.css";
 import { IoCodeSlash } from "react-icons/io5";
 import { DiJsBadge } from "react-icons/di";
@@ -18,6 +18,10 @@ import { FaLock } from "react-icons/fa";
 import Footer from "../Components/Footer";
 
 function SoftwareEngineering() {
+  useEffect(() => {
+    document.title =
+      "Software Engineering Bootcamp | Tomorrow's Tech, Today's Innovation";
+  }, []);
   return (
     <div className="bg-white">
       <div className="relative w-full overflow-hidden bg-[#171b2c]">

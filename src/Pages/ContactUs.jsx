@@ -3,6 +3,10 @@ import ContactForm from "../Components/CustomerForm";
 import Footer from "../Components/Footer";
 
 function ContactUs() {
+  useEffect(() => {
+    document.title = "Get Started | Tomorrow's Tech, Today's Innovation";
+  }, []);
+
   const [geeks, setGeeks] = useState("possible");
   const techGeek = ["possible", "we can"];
 

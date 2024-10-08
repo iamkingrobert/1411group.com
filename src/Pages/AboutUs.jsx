@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutSuccess from "../Components/AboutSuccess";
 import GetStarted from "../Components/GetStarted";
 import Footer from "../Components/Footer";
@@ -6,6 +6,9 @@ import MissionVision from "../Components/MissionVision";
 import CEOQuote from "../Components/CEOQuote";
 
 function AboutUs() {
+  useEffect(() => {
+    document.title = "About Us | Tomorrow's Tech, Today's Innovation";
+  }, []);
   return (
     <div className="relative w-full overflow-hidden bg-[#171b2c]">
       <div className="bg-[#171b2c] flex items-center justify-center mt-[60px] h-[45vh]">

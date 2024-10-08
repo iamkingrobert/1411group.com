@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Software.css";
 import { SiPowerbi } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
@@ -17,6 +17,10 @@ import { FaLock } from "react-icons/fa";
 import Footer from "../Components/Footer";
 
 function DataAnalysis() {
+  useEffect(() => {
+    document.title =
+      "Data Analysis Bootcamp | Tomorrow's Tech, Today's Innovation";
+  }, []);
   return (
     <div className="bg-white">
       <div className="relative w-full overflow-hidden bg-[#171b2c]">

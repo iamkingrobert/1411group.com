@@ -5,6 +5,9 @@ import { useSpring, animated } from "react-spring";
 import { useEffect, useState } from "react";
 
 function TechSolution() {
+  useEffect(() => {
+    document.title = "Our Solutions | Tomorrow's Tech, Today's Innovation";
+  }, []);
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {

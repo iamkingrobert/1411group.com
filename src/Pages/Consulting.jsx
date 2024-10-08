@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../Components/Footer";
 import { SiAlwaysdata } from "react-icons/si";
 import { SiGooglemybusiness } from "react-icons/si";
 import "../Components/Courses.css";
 
 function Consulting() {
+  useEffect(() => {
+    document.title = "Business Consulting | Tomorrow's Tech, Today's Innovation";
+  }, []);
   const cards = [
     {
       title: "Your business administration …",
